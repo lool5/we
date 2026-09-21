@@ -1,0 +1,797 @@
+تمام، Day 3 عندنا مركزه الأساسي 3 أجزاء كبار:
+
+1) Rate Plans & FBB Products
+2) Troubleshooting / Speed & Package behavior
+3) Billing Actions & Rules
+
+هشرحهولك بطريقة مذاكرة، ومعاه الحاجات اللي غالبًا تتحول لأسئلة Trial.
+
+🟦 DAY 3 — RATE PLANS / FBB PRODUCTS
+1️⃣ New Customer — Start Speed & Optimization
+
+لما العميل يكون New Customer، السرعة لا تصل لأقصى سرعة من أول يوم.
+
+البداية:
+
+Start Speed = 8 Mbps
+
+وبعدها يحصل:
+
+Speed Optimization
+
+والمدة حسب التكنولوجيا:
+
+VDSL = 4 Days
+ADSL = 3 Days.
+Upload Speed
+
+الـUpload Speed يتم توضيحها only if customer asks.
+
+وفي المادة الأولى المذكور:
+
+ADSL → Up to 2 Mbps
+VDSL → Up to 3 Mbps
+FTTH → Up to 25 Mbps.
+
+⚠️ المادة فيها لاحقًا قيمًا أخرى لـWE MAX Plus، فلا تخلط بينهم.
+
+2️⃣ Speed Optimization — أهم Case
+
+المادة أعطتك جدول Expected Speed حسب الـDays والـPackage.
+
+مثلًا:
+
+Day	Super ADSL	Super VDSL	Mega VDSL	Ultra VDSL
+1	18M	18M	40M	70M
+2	23M	23M	50M	80M
+3	24M	24M	60M	90M
+4	30M	70M	100M	—
+
+والـProfile يبدأ بـ 8M.
+
+لو العميل ما زال داخل Optimization Period
+Current Speed < Expected Speed
+
+يعني السرعة أقل من المتوقع.
+
+→ نعامل الحالة كـ BLQ / Slow Speed Troubleshooting.
+
+Current Speed ≥ Expected Speed
+
+يعني السرعة وصلت للـExpected أو أعلى.
+
+→ Inform customer to wait until optimization period finishes.
+
+لو العميل خلص Optimization Period
+
+المفروض السرعة تكون وصلت إلى SR Speed.
+
+لو الإنترنت شغال لكن العميل بيقول إنه بطيء:
+
+→ نعمل BLQ Troubleshooting حسب الـcorrect queue/process.
+
+⭐ دي نقطة Trial مهمة جدًا:
+
+New Customer + Current Speed أقل من Expected أثناء Optimization = BLQ.
+
+3️⃣ Existing Customer Changes Package
+
+لو العميل Existing Customer وعمل تغيير باقة:
+
+المادة بتقول إنه يحصل على 100% من السرعة من أول يوم، وليس نفس منطق الـNew Customer optimization.
+
+4️⃣ Throttling Speed
+
+لما الباقة الأساسية تخلص، السرعة يتم تخفيضها إلى:
+
+256 Kbps
+
+وده حسب تعليمات الجهاز القومي لتنظيم الاتصالات.
+
+والعميل يقدر يرجع للسرعة الأصلية عن طريق:
+
+Recharge / Extra Quota
+
+حسب الحالة.
+
+مهم:
+
+انخفاض السرعة بسبب انتهاء Quota ≠ Speed Variance.
+
+🟩 5️⃣ WE Space
+
+الـWE Space مقسمة في المادة إلى:
+
+Monthly
+Annual
+Grandfathered
+
+والباقات الرئيسية:
+
+Super / Mega / Ultra
+
+والـWE MAX Plus موجود كمنتج منفصل داخل نفس المادة.
+
+6️⃣ Edu & Gov Add-on
+
+للـWE Space يوجد 10 GB مجانية للمواقع التعليمية والحكومية.
+
+الفكرة:
+
+الـ10 GB دي لا تُخصم من الـMain Quota أثناء استخدامها للمواقع المؤهلة.
+
+لو الـ10 GB خلصت:
+
+→ الاستخدام يستمر، لكن يبدأ الخصم من الـMain Quota.
+
+مهم:
+
+الـAdd-on متاح:
+
+✅ Consumer
+❌ Corporate
+
+وكذلك لا يمكن استخدام الـAdd-on إذا كانت الـMain Package Suspended.
+
+7️⃣ Shamel from Vezeeta
+
+خدمة Shamel خدمة طبية سنوية تقدم خصومات قد تصل إلى:
+
+80%
+
+وتشمل خدمات مثل:
+
+Clinics
+Labs
+Radiology
+Pharmacies
+Dental
+Surgery
+Outpatient
+Doctors
+
+وهي Digital Service ويتم التعامل معها من خلال التطبيق/Vezeeta.
+
+أفراد الأسرة
+
+يمكن أن تشمل العائلة حتى:
+
+4 أفراد
+
+حسب الباقات المؤهلة.
+
+ولو العميل انتقل من Package مؤهلة إلى Package غير مؤهلة:
+
+→ يفقد خدمة Shamel.
+
+🟥 8️⃣ WE MAX Plus
+
+دي من أهم أجزاء Day 3.
+
+الخدمة:
+
+FTTH
+
+وسرعة تصل إلى:
+
+500 Mbps
+
+والـQuota:
+
+1 TB
+
+حسب المادة.
+
+Payment:
+
+Prepaid only حسب الـFAQ الموجودة بالمادة.
+
+Current + New Customers:
+
+متاحة للعملاء الحاليين والجدد، بشرط الـTechnical Eligibility.
+
+9️⃣ MAX Plus — Equipment
+
+للوصول للسرعات العالية، لازم يكون الـONT يدعم الـHigh Speed.
+
+ولو Wireless:
+
+لازم يكون الـONT مناسب أو يستخدم العميل:
+
+Mesh / Point Access
+
+والمادة تذكر Nokia Wi-Fi Mesh Beacon B1.1 بسعر:
+
+1999 EGP before tax.
+
+500 Mbps
+
+السرعة قد لا تظهر دائمًا 500 كاملة؛ يمكن تكون مثل:
+
+470 / 450 Mbps
+
+بحسب أقصى سرعة يستطيع الخط تحملها، وقد تتغير خلال اليوم.
+
+🔟 MAX Plus — Important Questions
+
+حسب المادة:
+
+Upgrade إلى MAX Plus: متاح.
+
+Early Renewal: متاح.
+
+Annual MAX Plus: غير متاح وقت المادة.
+
+Extra Packages: متاحة.
+
+Shamel: متاح مجانًا للعائلة حتى 4 أفراد.
+
+Mesh installment: غير متاح وقت المادة.
+
+1️⃣1️⃣ Super Vectoring
+
+الـSuper Vectoring تتيح سرعات عالية على VDSL بدل اقتصار السرعات العالية على FTTH.
+
+حتى 200 Mbps حسب المادة.
+
+لازم:
+
+الـExchange / POP يدعم SV
+الـCabinet يدعم SV
+الـPort مناسب
+العميل يمتلك Premium SV Router.
+Routers المذكورة:
+Huawei
+ZTE
+ZYXEL
+1️⃣2️⃣ الوصول إلى 200 Mbps
+
+المراحل:
+
+75 → 100 → 125 → 150 → 175 → 200 Mbps
+
+وكل انتقال قد يستغرق:
+
+3 Days
+
+ويجب إبلاغ العميل بترك الراوتر شغال بدون انقطاع لمدة:
+
+15 Days
+
+حتى يصل الخط لأقصى سرعة يتحملها.
+
+1️⃣3️⃣ SV Eligibility
+
+من CST360 نعمل Eligibility Check ونراجع:
+
+هل الـPOP يدعم SV؟
+هل الـPort يدعم SV؟
+هل سنحتاج Port Change؟
+Expected Speed
+
+والحد الأدنى المذكور للـExpected Speed:
+
+50 Mbps.
+
+POP + Port both support SV
+
+→ الاشتراك متاح طبيعي.
+
+POP supports SV لكن Port لا يدعم:
+
+→ نعمل الإجراءات الطبيعية لتغيير الباقة، ويُنشأ طلب تغيير Card/Port.
+
+والتغيير يستغرق:
+
+7 Days
+
+ويُفضل العميل يطلب التغيير 7 Days قبل موعد التجديد.
+
+POP + Port لا يدعمان SV
+
+→ الاشتراك غير متاح.
+
+🟦 1️⃣4️⃣ Annual Packages
+
+الباقات السنوية الجديدة متاحة للعملاء الحاليين والجدد.
+
+يتم إضافة الـTotal Quota:
+
+في بداية السنة
+
+والـExtra Quota / Up-Level متاحة معها.
+
+لكن العميل الجديد على Annual Package لا يحصل على Router بنظام الدفع الشهري.
+
+1️⃣5️⃣ Grandfathered Packages
+
+أهم نقطة:
+
+❌ غير متاحة للعملاء الجدد.
+
+✅ العملاء الحاليون الذين لديهم Grandfathered يمكنهم التعامل معها حسب القواعد.
+
+والـEarly Renewal للـGrandfathered متاح عن طريق:
+
+E-Care + Mobile App فقط
+
+لكن:
+
+❌ Super 20 GB Grandfathered Old لا يمكن عمل Early Renewal له.
+
+دي نقطة امتحان مؤكدة جدًا:
+
+Grandfathered Old Super 20 GB → No Early Renewal.
+
+🟪 1️⃣6️⃣ WE Gold
+
+WE Gold هي:
+
+One Bill + One Package
+
+وتجمع خدمات:
+
+Mobile
+Fixed Internet
+Fixed Voice
+
+والعميل يقدر يضيف أفراد للعائلة حتى 6 additional lines حسب النظام المذكور في المادة.
+
+لو مشكلة أو استفسار خاص بـGold:
+
+→ يتم تحويل العميل لقسم GSM.
+
+أما المشاكل الفنية التي تخص الخدمة حسب السيناريو، المادة تشير إلى التعامل معها وفق الـprocess.
+
+🟧 1️⃣7️⃣ WE Sonic
+
+WE Sonic باقات عالية السرعة.
+
+تبدأ من:
+
+80 Mbps
+
+والـGB يتم احتسابها بشكل مختلف حسب نوع الاستخدام.
+
+وتدعم استخدامات مثل:
+
+Gaming
+YouTube
+Facebook
+Instagram
+Shahid
+Jawwy
+
+وكذلك يوجد Free Consumption لتطبيقات مثل:
+
+Microsoft Teams
+Zoom
+Google Meet
+SoundCloud
+Deezer
+Anghami
+Spotify.
+Sonic:
+
+Prepaid فقط حسب المادة.
+
+والـEarly Renewal متاح.
+
+والـcustomer يستطيع متابعة الاستهلاك من موقع الشركة / التطبيق، وتصل له رسائل تفصيلية عن الاستهلاك.
+
+1️⃣8️⃣ Sonic Plans
+Plan	Speed	Technology	Upload
+GAMERZ	Up to 80 Mbps	VDSL / FTTH	Up to 25 Mbps
+STREAMERZ	Up to 80 Mbps	VDSL / FTTH	Up to 25 Mbps
+PLUS	Up to 150 Mbps	SV / FTTH	Up to 50 Mbps
+
+والـThrottling Speed:
+
+256 KB.
+
+🟨 1️⃣9️⃣ WE MIX
+
+WE MIX عبارة عن Package تجمع:
+
+Mobile + Fixed Internet
+
+والـPrepaid هو النظام المذكور في المادة.
+
+لازم الـMain Mobile Line يكون موجود أولًا، وبعدها تتم إضافة Fixed Internet.
+
+ولو العميل عنده مشكلة أو استفسار عن MIX:
+
+→ يتم تحويله لقسم WE MIX.
+
+🟩 2️⃣0️⃣ WE Life
+
+WE Life تجمع:
+
+Fixed Voice
+Fixed Internet
+IPTV
+
+بنظام:
+
+Postpaid
+
+وفاتورة واحدة.
+
+الاشتراك / التحويل:
+
+Branch only
+
+غير متاحة:
+
+❌ Corporate
+❌ Commercial
+❌ ADSL
+
+وتعمل على:
+
+✅ FTTH
+✅ VDSL
+✅ SV
+
+ولـVDSL/SV لازم Eligibility:
+
+28 Mbps أو أكثر.
+
+2️⃣1️⃣ IPTV
+
+IPTV لا يستهلك من Internet Quota.
+
+يعني حتى لو Internet Quota خلصت وتم تقليل سرعة الإنترنت:
+
+→ IPTV تستمر بشكل طبيعي حسب المادة.
+
+والـSTB:
+
+يتوصل بـCable
+ليس Wireless
+لو Router/ONT بعيد عن التلفزيون قد تحتاج CAT6 Cable.
+🟥 2️⃣2️⃣ BILLING — Early Renewal
+
+ده جزء مهم جدًا في Day 3.
+
+شروط Early Renewal
+
+أول حاجة:
+
+✅ العميل عنده sufficient balance
+
+ثم:
+
+✅ Verification
+
+وقبل التنفيذ لازم نبلغ العميل أنه سيخسر:
+
+الـremaining Quota
+أو الـremaining Days
+
+وبالتالي تبدأ دورة:
+
+30 Days جديدة.
+
+2️⃣3️⃣ Early Renewal Action
+
+الـAction الأساسي من:
+
+BSS
+
+والمادة تذكر أن CST360 كان يمكن استخدامه أيضًا وفق وقت/تنبيه المادة.
+
+بعد التنفيذ:
+
+لازم نتأكد أن:
+
+Order = Completed
+
+وأن:
+
+Quota + Speed updated on CST360
+
+لو ما اتحدثوش:
+
+→ Restart Port مرة واحدة فقط.
+
+2️⃣4️⃣ Early Renewal Abnormal
+
+لو الـEarly Renewal Order أصبح:
+
+Abnormal
+
+لازم نتأكد أن:
+
+FV Line = Active
+
+ثم:
+
+Re-dispatch
+
+لو ما زال Abnormal بعد Re-dispatch:
+
+→ نطبق TT Status Abnormal Process.
+
+2️⃣5️⃣ Early Renewal — أهم SRs
+
+المادة فيها SRs متعددة حسب الـScenario:
+
+سؤال عن Early Renewal
+Early Renewal Done
+Not Done بسبب Verification
+Customer Done
+Follow-up
+Speed not raised automatically
+Last Recharge Verification
+Full Verification
+After Restart Port.
+2️⃣6️⃣ Early Renewal — Call Deflection
+
+في الـPilot الخاص ببعض الموظفين، الهدف تقليل مكالمات Early Renewal.
+
+أول مرة العميل يتصل:
+
+المفروض نساعده، لكن نبلغه أن التجديد مستقبلًا يمكن يكون من:
+
+IVR
+نفس Fixed Number
+Registered Mobile
+آخر 4 أرقام من الـRegistered Mobile عند الاتصال من رقم مختلف
+WE My
+E-Care.
+
+وفي التطبيق، أول استخدام قد يكون معه:
+
+5 GB Gift حسب المادة.
+
+2️⃣7️⃣ Early Renewal — Second / Third Call
+
+في المكالمات اللاحقة:
+
+نحاول نوجّه العميل إلى:
+
+WE App / Website / IVR
+
+ولو أصر أن الموظف هو الذي يعمل التجديد:
+
+→ نعمله التجديد
+→ نبلغه أن الطرق الذاتية ستكون الأسرع مستقبلًا.
+
+2️⃣8️⃣ Balance Extra — Why Add 1 EGP?
+
+المادة بتوضح أن العميل قد يحتاج إلى دفع فرق بسيط جدًا بسبب الكسور والـVAT.
+
+وفي بعض الحالات يتم نصحه:
+
+يدفع 1 جنيه زيادة
+
+لتجنب فشل التجديد بسبب فرق القروش.
+
+مثال المادة:
+
+الرصيد 279.55
+
+والمطلوب 280
+
+نضيف مبلغ يغطي الفرق مع الـVAT حسب الـprocess.
+
+🟦 2️⃣9️⃣ Renewal Date
+
+لو العميل سأل:
+
+"الباقة هتنتهي إمتى؟"
+
+المادة بتوضح أن الانتهاء يكون بنهاية اليوم السابق لتاريخ Expiry حسب المثال الموجود.
+
+يعني لازم تركز جدًا في كلمة:
+
+Expiry Date vs End of Day.
+
+3️⃣0️⃣ Renewal Reminder SMS
+
+الشركة تبعت تذكير قبل موعد التجديد:
+
+3 مرات
+
+قبل:
+
+3 Days / 2 Days / 1 Day
+
+والرسالة تحتوي قيمة الباقة الأساسية including VAT.
+
+🟧 3️⃣1️⃣ Balance Fraction
+
+الـBalance Fraction يستخدم لما يكون عند العميل فرق صغير يمنعه من تنفيذ Action.
+
+الحالات المذكورة:
+
+Automatic Renewal
+Early Renewal
+Extra Quota
+Change Speed
+
+ويضاف للـActive Account فقط.
+
+الحد الأقصى:
+
+3 LE
+
+والـVerification مطلوبة في الحالات ما عدا Automatic Renewal حسب المادة.
+
+⭐ دي من أهم أسئلة Trial:
+
+Balance Fraction → Active Account only → Max 3 EGP.
+
+🟥 3️⃣2️⃣ Customer Has FBB Suspension Due to Non-Payment
+
+لو العميل عنده Suspension بسبب:
+
+Dunning / Non-payment
+
+فالمشكلة قد تؤثر على Internet.
+
+ولو العميل دفع الفاتورة وطالب Resume:
+
+يتم إنشاء:
+
+FBB Non-Technical Request → Internet Service Resume → Manual Dunning Suspension
+
+والـSLA:
+
+1 Working Hour
+
+وساعات عمل القسم:
+
+8 AM → 9 PM
+
+ماعدا الجمعة:
+
+2 PM → 9 PM.
+
+3️⃣3️⃣ Mobile Bill Still Outstanding
+
+لو العميل دفع جزء من فاتورة الموبايل لكنه ما زال عنده:
+
+Outstanding Amount
+
+لا تعمل TT مباشرة.
+
+لازم أولًا تخليه يسدد المبلغ المتبقي.
+
+ويتم فحص الـOutstanding من:
+
+Sitemap → Account Receivable → Payment Management حسب المادة.
+
+🟪 3️⃣4️⃣ Stamp Tax
+
+الدمغة ورسم التنمية مرتبطان بالعقود والمستندات.
+
+المادة تذكر:
+
+2.90 EGP
+
+على بعض نسخ عقود الإيجار/التوكيل التي يتم تسليمها حسب الحالة، بالإضافة إلى الـVAT حسب الـprocess.
+
+3️⃣5️⃣ Negative Balance
+
+لمعرفة هل العميل عليه مديونية:
+
+نستخدم:
+
+Negative Balance Query
+
+بعد البحث بالـNational ID.
+
+وفي CST360 توجد طريقة أخرى:
+
+Customer 360 → FBB → Include History → Search
+
+ثم نشوف:
+
+Balance < 0
+
+→ المبلغ لم يُدفع
+
+Balance = 0
+
+→ المبلغ تم دفعه.
+
+🟨 3️⃣6️⃣ Electronic Bill
+
+لو العميل طلب Electronic Bill:
+
+يمكن تقديم الطلب:
+
+Branch / Email
+
+SLA:
+
+المادة تذكر:
+
+Branch = 24 H
+
+Email = 24 H + 2 H لإرسال الفاتورة/الدعم حسب مسار الطلب.
+
+مهم:
+
+لازم:
+
+سؤال العميل عن Mobile
+إضافته في Secondary Mobile
+لو Email → نأخذ Email ونضعه في Service Content
+لكل رقم نعمل TT منفصل
+للرقم نفسه يمكن طلب Electronic Bill مرة واحدة في الشهر
+الفاتورة لأكثر من 90 يوم لها مسار مختلف.
+🟦 3️⃣7️⃣ Payment Proof
+
+لو عميل Commercial / Government طلب Proof of Payment:
+
+نعمل Verification.
+نأخذ Email.
+نوضحه في TT Service Content.
+
+الـTT:
+
+FBB Non Technical Request → Billing → Proof of Payment
+
+والـSLA:
+
+Billing = 2 H
+
+ثم:
+
+DS Email Support = 2 H.
+
+🔥 DAY 3 — أهم الحاجات للحفظ قبل الـTrial
+السرعات:
+
+New Customer → Start 8 Mbps
+
+ADSL Optimization → 3 Days
+
+VDSL Optimization → 4 Days
+
+Current < Expected أثناء Optimization → BLQ
+
+Current ≥ Expected → Wait
+
+بعد Optimization + Internet Slow → BLQ
+
+Throttling = 256 Kbps.
+
+Packages:
+
+Grandfathered → No New Customers
+
+Super 20 GB Old Grandfathered → No Early Renewal
+
+WE MAX Plus → FTTH / 500 Mbps / 1 TB
+
+WE Life → Postpaid / FTTH-VDSL-SV / No ADSL
+
+WE MIX → Prepaid
+
+WE Sonic → Prepaid
+
+Billing:
+
+Early Renewal → sufficient balance + Verification
+
+Early Renewal → lose remaining quota/days
+
+After Early Renewal → verify Order Completed + Quota + Speed
+
+Not updated → Restart Port once
+
+Balance Fraction → Active Account / Max 3 EGP
+
+Non-payment Resume → 1 Working Hour
+
+Negative Balance < 0 → Not Paid
+
+Negative Balance = 0 → Paid
+
+Electronic Bill → 24 H path
+
+Payment Proof → 2 H + DS Email Support 2 H.

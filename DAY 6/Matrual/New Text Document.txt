@@ -1,0 +1,549 @@
+🟦 DAY 6 — FULL REVIEW
+
+اليوم السادس كان مركزه الأساسي على FTTH Migration + Hayah Karima + Migration Problems + Cancellation/Retention.
+
+1️⃣ FTTH Migration
+أول قاعدة
+
+لازم نعمل Migration Order لما يكون الـSubscriber Status:
+
+✅ Active
+
+ولو الـPackage حالتها Suspended، الـCCA يقدر برضه يعمل Migration Order حسب الـprocess.
+
+2️⃣ Annual Customer + FTTH Migration
+
+لو العميل على Annual Package وعايز يعمل FTTH Migration:
+
+❌ الـFTTH Migration غير متاحة حاليًا له.
+
+لو مصر وEligible:
+
+→ لازم الأول يتحول إلى Monthly أو Quarterly Package، وبعدها يتم التعامل مع الـMigration.
+
+3️⃣ FV Only FTTH Migration
+
+⚠️ دي مهمة جدًا:
+
+FV Only FTTH Migration stopped until further notification.
+
+يعني لو عميل FV Only سأل عن FTTH Migration:
+
+❌ Not Eligible
+
+والـSR:
+
+FBB Non Tech Inquiry → FTTH Migration → Not Eligible
+
+4️⃣ Data Only / FV Only Order Query
+
+في Day 6 كان موجود جزء خاص بـ:
+
+FV Migration
+FV Migration Data Only Order Query
+FV Only Order Query
+
+الفكرة الأساسية إنك قبل اتخاذ أي Action لازم تعرف حالة الـMigration Order والـActivity الموجودة عليه.
+
+5️⃣ Hayah Karima — Suspended FTTH Migration
+
+لو عميل Hayah Karima والـMigration Suspended:
+
+أول حاجة نشوف من BSS:
+
+هل العميل استلم ONU؟
+✅ Yes
+
+نعمل Resume من BSS علشان الـLine ترجع:
+
+Active
+
+والـSR:
+
+Fixed Voice SR Follow Up → FTTH Migration → FV Manual Resume HK Done
+
+❌ No
+
+نستخدم الـSR الخاصة بعدم استلام الـONU:
+
+Fixed Voice SR Follow Up → FTTH Migration → Check CPE SN Informed
+
+ونشرح للعميل إن التحويل للفايبر لم يكتمل بسبب ONU Delivery.
+
+6️⃣ FTTH Migration Follow-up SRs
+
+الـSRs المهمة:
+
+Survey
+Survey Within SLA
+Survey After SLA
+Re-Survey
+Re-Survey Within SLA
+Re-Survey After SLA
+Home Visit
+Home Visit Within SLA
+Home Visit After SLA
+
+وكذلك:
+
+FTTH Order Installation Survey/Re-survey/Home Visit
+
+حسب الـActivity الموجودة على الـOrder.
+
+7️⃣ Migration Working Hours
+
+حسب المادة:
+
+FO-Fiber Team
+
+10:00 AM → 7:00 PM
+
+ماعدا Friday:
+
+1:00 PM → 7:00 PM
+
+FTTH-Support Home Visit
+
+9:00 AM → 5:00 PM
+
+ماعدا Friday:
+
+2:00 PM → 9:00 PM.
+
+8️⃣ FTTH Migration Delay
+
+لو فيه Delay في أي Activity:
+
+→ نعمل الـSR الخاصة بالـActivity
+→ ونعمل Delay TT حسب الحالة.
+
+لو العميل بيتابع والـDelay TT لسه Open:
+
+→ نتابع على نفس الـTT
+→ نضيف Midway
+→ نبلغ العميل بنفس الـSLA.
+
+لو الـTT تجاوزت الـSLA:
+
+→ نبلغ العميل بآخر SLA
+→ Midway
+→ نعمل الـSR المناسبة.
+
+والـSLA يتم حسابها من:
+
+آخر Update من Activation Team على Delay Ticket.
+
+9️⃣ FTTH Migration Delay SLA
+Migration Installation — SD Team
+
+72 Hours
+
+Overall Delay
+
+7 Days أو 10 Days
+
+حسب الحالة/المحافظة.
+
+🔟 Automatic TT — WO Problem
+
+لو بدأ الـFTTH Order في:
+
+WO Request
+
+فالـOrder يتحرك Automatic إذا مفيش مشكلة.
+
+لكن ممكن يظهر:
+
+CST Problem
+TE Problem
+Line Problem
+
+وعند وجود Problem يتم إنشاء Automatic TT.
+
+1️⃣1️⃣ أهم WO Problem SLAs
+Problem	SLA
+FTTH — Not Tested Yet	2 WD
+FTTH — CST Problem / Already Subscribed	1 WD
+FTTH — Line Problem / Connection Cable	15 WD
+FTTH — Line Problem / Fiber	15 WD
+FTTH — Line Problem / No Copper	15 WD
+FTTH — Line Problem / Pergain	15 WD
+FTTH — Line Problem / Wireless	15 WD
+FTTH — TE Problem / No Data	7 WD
+FTTH — TE Problem / No Financial Data	7 WD
+FTTH — TE Problem / No Technical Data	7 WD
+
+1️⃣2️⃣ WO Problem — CST Problem Already Subscribed
+
+لو لقينا:
+
+Automatic TT / FTTH → WO Problem → FTTH-CST Problem - Already Subscribed
+
+أول حاجة:
+
+هل فيه Feedback من OMU؟
+
+✅ لو فيه:
+→ نبلغ العميل بالـFeedback.
+
+❌ لو مفيش:
+
+نراجع Negative Balance حسب ملكية الـFV/FBB.
+
+لو نفس الـOwner:
+
+→ العميل عليه Negative Balance
+→ يدفعه من الفرع.
+
+لو Owner مختلف:
+
+→ نمشي TE Sold Case.
+
+1️⃣3️⃣ Deactivated on CST360
+
+لو مفيش Profile على CST360 وظهر Error:
+
+أول حاجة:
+
+هل يوجد FTTH Migration Order؟
+
+✅ Yes:
+→ نتابع حسب الـActivity الموجودة في الـMigration Order.
+
+❌ No:
+→ نتابع Abnormal Behavior Process.
+
+وفيه معلومة داخلية عن فصل MSAN لا يتم إبلاغ العميل بها.
+
+الـSR:
+
+FBB Non Technical Complaint → System Issue → CST360 MSAN Deactivation for FTTH Migration.
+
+1️⃣4️⃣ Change Mobile Number During Migration
+
+دي من أهم نقاط Day 6.
+
+لو العميل يريد تغيير Mobile Number أثناء الـMigration:
+
+Verification:
+
+لازم نأخذ:
+
+Last 7 Digits of ID + Full Name
+
+وبحسب المادة:
+
+Three Levels Minimum
+
+بعد الـVerification:
+
+→ نغير الرقم داخل FTTH Migration Order.
+
+ولو فيه TT لمشكلة Migration:
+
+→ يتم إغلاقها بـ:
+
+Success Scenario
+
+والعميل يتبلغ إن:
+
+الرقم اتغير داخل Migration Order فقط.
+
+ولو عايز بيانات السيستم نفسها تتغير:
+
+→ يعمل Change Mobile Number بعد انتهاء الـMigration.
+
+SR:
+
+FBB Non Tech Follow Up → FTTH Migration → Change Contact Number.
+
+🟨 1️⃣5️⃣ FTTH Migration — Customer Cancellation
+
+لو العميل عايز يلغي أثناء الـMigration:
+
+لازم نعرف سبب الإلغاء، ونحاول نحل المشكلة لو ممكن.
+
+لو العميل مصر:
+
+→ نعمل:
+
+FBB Non Technical Complaint → Ask for Cancellation → FTTH Migration
+
+ونكتب سبب الإلغاء داخل الـSR.
+
+1️⃣6️⃣ Important Changes During Migration
+
+المادة بتوضح إن العميل أثناء Migration قد لا يستطيع تنفيذ بعض الطلبات، مثل:
+
+Change Offer
+Transfer of Ownership
+Deactivate Subscriber
+New Subscription
+Change Phone Number
+Prepaid → Postpaid
+Postpaid → Prepaid
+استثناء:
+
+Transfer of Ownership + Change Phone Number
+
+فيهم:
+
+→ Direct CST to CSO
+
+والـSR لازم تحتوي على سبب الإلغاء/الطلب حسب الحالة.
+
+1️⃣7️⃣ Migration + Early Renewal Not Done
+
+لو العميل مش قادر يعمل Early Renewal بسبب Migration من Copper إلى FTTH:
+
+المادة بتقول نعرض عليه:
+
+Extra Quota
+
+مثل:
+
+20 GB
+50 GB
+100 GB
+
+وبعد اكتمال Migration، عرض Double Extra Quota يتم إضافته خلال:
+
+✅ 24 Hours after recharge
+
+ولازم نعمل SR للمتابعة خلال الـ24 ساعة.
+
+1️⃣8️⃣ Automatic TT — Customer Problem
+
+في بعض Automatic TTs الخاصة بـ:
+
+Survey / Home Visit
+
+لو المشكلة كانت محتاجة Action من العميل، والعميل اتصل وقال إن المشكلة اتحلت وهو جاهز لاستكمال الإجراءات:
+
+→ نسحب الـTT
+→ نقفلها
+→ ونسمح باستكمال الـOrder بشكل طبيعي.
+
+مثال:
+
+Customer Not Available for Visit
+Unit Under Construction
+Unreachable
+Wrong Mobile Number
+Suspension
+Payment
+Suspension More Than 14 Days
+Survey Unreachable
+Defected Rental
+Routing Problem.
+1️⃣9️⃣ Automatic TT — Unreachable
+
+لو الـcustomer mobile number غير متاح:
+
+Unreachable
+
+في بعض الحالات الـTT تكون Automatic وتكون حالتها Closed.
+
+2️⃣0️⃣ Wrong Mobile Number
+
+لو Automatic TT توضح:
+
+Wrong Mobile Number
+
+الـCCA يعمل:
+
+Change Number with AS-IS Process
+
+حسب الـprocess.
+
+2️⃣1️⃣ Payment Problem
+
+لو موجود:
+
+Payment
+
+معناه إن العميل لازم يسدد المبلغ المستحق.
+
+قد يكون:
+
+Device
+Package
+Installation Fees
+Other Fees
+
+حسب الـTT.
+
+2️⃣2️⃣ Suspension More Than 14 Days
+
+لو العميل متأخر في استكمال Installation أكثر من:
+
+✅ 14 Days
+
+يظهر:
+
+Suspension More Than 14 Days
+
+وتوجد Automatic TTs لهذا الـScenario.
+
+2️⃣3️⃣ Defected Rental
+
+دي خاصة بـMigration Orders.
+
+لو الـRental CPE القديم:
+
+ADSL/VDSL
+
+اتضح إنه Defected:
+
+→ يتم إنشاء TT
+→ لأن الـCPE يجب أن يتم التعامل معه أولًا قبل إكمال تركيب الـONT.
+
+2️⃣4️⃣ Routing Problem
+
+في حالة الـRouting Problem:
+
+الـFO Fiber Team تكون اتصلت بالعميل وحددت زيارة، لكن عند الزيارة وجدوا أن:
+
+Internal Pass is not ready
+
+وبالتالي:
+
+→ الانتظار حتى العميل يجهز الـInternal Pass
+→ ثم إعادة الزيارة وتركيب Fiber Cable.
+
+🟥 2️⃣5️⃣ Automatic TT — Cancellation
+
+لو عندنا Automatic TT فيها:
+
+Cancellation
+
+الـCCA يسأل العميل:
+
+هل ما زلت تريد Cancellation؟
+
+✅ Yes:
+→ نبلغ العميل أن شخصًا سيتواصل معه خلال:
+
+24 Hours
+
+❌ No:
+→ نغلق الـTicket بـ:
+
+Success Scenario
+
+عن طريق Forward Button.
+
+2️⃣6️⃣ Due Payment Isn't Clear
+
+دي Automatic TT مهمة.
+
+المادة بتقول:
+
+❌ لا نقفلها عشوائيًا
+❌ لا نستخدم Forward
+
+→ نوجه العميل للفرع لتسوية الباقة/الجهاز حسب الحالة.
+
+🟪 2️⃣7️⃣ Hayah Karima — Important
+
+في بعض مناطق Hayah Karima الشركة تقوم برفع كفاءة الـFixed Internet والتحويل إلى FTTH.
+
+لو العميل سأل:
+
+"إمتى هتحولوني؟"
+
+نستخدم الـscript الذي يفيد بأن التحويل سيتم عند توفر الخدمة، وسيتم متابعته.
+
+كما أن:
+
+FMC Indigo متاح لها Migration تحت مبادرة Hayah Karima حسب المادة.
+
+🔥 DAY 6 — أرقام لازم تتحفظ
+الموضوع	الرقم
+FTTH Migration SD Team Delay	72 H
+Overall Migration Delay	7 D / 10 D
+WO Not Tested Yet	2 WD
+Already Subscribed	1 WD
+Line Problem	15 WD
+TE Problem	7 WD
+Migration Cancellation Contact	24 H
+Double Extra Quota after recharge	24 H
+Suspension More Than	14 Days
+FO-Fiber Working Hours	10 AM–7 PM
+Friday FO-Fiber	1 PM–7 PM
+FTTH Support Home Visit	9 AM–5 PM
+Friday Home Visit	2 PM–9 PM
+⭐ أهم أسئلة Trial محتملة
+FTTH Migration requires account status:
+
+✅ Active
+
+Annual customer wants FTTH Migration:
+
+✅ Not currently available; migrate to Monthly/Quarterly first
+
+FV Only FTTH Migration:
+
+✅ Not Eligible
+
+Hayah Karima Suspended + ONU received:
+
+✅ Resume from BSS
+
+Hayah Karima Suspended + ONU not received:
+
+✅ Check CPE SN Informed
+
+Change Mobile Number during Migration:
+
+✅ Last 7 ID digits + Full Name → change in Migration Order
+
+Migration Order has existing problem TT after number change:
+
+✅ Close with Success Scenario
+
+Customer wants system mobile data changed:
+
+✅ After Migration finishes
+
+Customer wants cancellation during migration:
+
+✅ Ask Cancellation → FTTH Migration
+
+Transfer Ownership during Migration:
+
+✅ Direct to CSO
+
+Change Phone Number during Migration:
+
+✅ Direct to CSO
+
+Migration Early Renewal not possible:
+
+✅ Offer Extra Quota 20/50/100 GB, then Double Quota within 24H after recharge.
+
+Wrong Mobile Number:
+
+✅ AS-IS Change Number Process
+
+Payment TT:
+
+✅ Customer pays due amount.
+
+Suspension >14 Days:
+
+✅ Suspension More Than 14 Days
+
+Cancellation Automatic TT + customer still wants cancel:
+
+✅ Contact within 24H
+
+Cancellation Automatic TT + customer no longer wants cancel:
+
+✅ Forward → Success Scenario
+
+Due Payment isn't Clear:
+
+✅ Branch — don't use Forward.
+
+وده Day 6 كامل كشرح مذاكرة من المادة اللي عندنا، مع الحفاظ على الـterms والـSRs والـSLAs كما ظهرت في المصادر.

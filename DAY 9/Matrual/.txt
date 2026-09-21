@@ -1,0 +1,1098 @@
+🟦 DAY 9 — FULL REVIEW
+
+Day 9 عندك جزئين أساسيين:
+
+1. Logical Instability
+2. Slowness — Logical Case + NOC + Speed Test
+
+ودي من أهم أيام الـTechnical، خصوصًا في ASSIA / NOC / Ping / Speed Test / SRs.
+
+🔵 أولًا: LOGICAL INSTABILITY
+1️⃣ شكل المشكلة
+
+العميل بيقول:
+
+الإنترنت بيفصل ويرجع يشتغل لوحده
+
+لكن:
+
+✅ لمبة ADSL ثابتة ومنورة
+
+ده معناه إن المشكلة غالبًا Logical Instability وليس Physical.
+
+ولو ASSIA Supported:
+
+→ نعمل Clear View.
+
+لو النتيجة:
+
+✅ Layer-Physical DSL No
+
+→ Logical Instability.
+
+2️⃣ لو ASSIA Not Supported
+
+هنا مش هنقدر نعتمد على Clear View.
+
+نسأل العميل:
+
+لما الإنترنت بيفصل، لمبة ADSL بتكون منورة وثابتة؟
+
+✅ لو نعم:
+
+→ المشكلة Logical.
+
+لأن Logical problem لا تؤثر على ADSL light.
+
+3️⃣ Logical Verification أولًا
+
+⚠️ قبل ما تبدأ Logical Instability Troubleshooting:
+
+✅ لازم تعمل Logical Verification الأول.
+
+4️⃣ بداية Troubleshooting
+
+ننصح العميل:
+
+→ يكون قريب من الراوتر قدر الإمكان.
+
+ولو متاح:
+
+→ نستخدم HDM.
+
+ونفضل يكون عنده:
+
+✅ جهاز واحد فقط متصل.
+
+ولو Computer:
+
+✅ يفضل Cable.
+
+⚠️ استخدام الـCable هنا مش خطوة إلزامية، ونقدر نكمل بدونه.
+
+5️⃣ Check Congested Status
+
+من:
+
+CST360 → Port Details
+
+نشوف:
+
+Congested / Within Ratio
+
+لو:
+
+✅ Congested
+أو
+✅ Within Ratio
+
+→ نوقف troubleshooting
+→ نبلغ العميل بالـScript المناسب
+→ ننهي المكالمة.
+
+لو:
+
+✅ Not Congested
+
+→ نكمل troubleshooting.
+
+🔥 6️⃣ Logical Instability نوعين
+Multiple Login
+
+و
+
+No Multiple Login
+🟥 7️⃣ MULTIPLE LOGIN
+
+من:
+
+NST → Logs
+
+نشوف آخر 24 Hours.
+
+ونتأكد هل الـLogs ناتجة عن:
+
+Port Restart
+CPE Restart
+Power cut
+
+لازم نسأل العميل هل حصل Restart للراوتر أو الكهرباء فصلت.
+
+8️⃣ Multiple Login — الحالة الأولى
+
+لو:
+
+Number of Multiple Login > 3
+
+والفرق بين كل Log والتانية:
+
+✅ أكثر من 3 Minutes
+
+نقول للعميل:
+
+→ يعمل Reconfigure & Reset
+
+ثم يجرب.
+
+لو المشكلة تكررت:
+
+→ يجرب CPE آخر / Router آخر.
+
+لو لسه:
+
+→ ممكن نعرض Technical Visit.
+
+ولو المشكلة مازالت:
+
+→ Escalate لـ NOC.
+
+NOC SLA:
+
+✅ 2 Hours
+
+9️⃣ Multiple Login — الحالة الثانية
+
+لو:
+
+Multiple Login ≥ 3
+
+والفرق بين الـLogs:
+
+✅ ≤ 3 Minutes
+
+نقول للعميل:
+
+→ Reconfigure & Reset
+
+ونشوف هل المشكلة اتحلت أثناء المكالمة.
+
+لو لم تحل:
+
+→ Escalate إلى NOC
+
+SLA:
+
+✅ 2 Hours
+
+🟢 10️⃣ NO MULTIPLE LOGIN
+
+ندخل:
+
+NST → Logs
+
+ونراجع الـLogs.
+
+ممكن يكون عند العميل:
+
+✅ Log واحد
+أو
+✅ Logs بسبب واضح مثل Restart للRouter.
+
+هنا أهم خطوة:
+
+هل الـPackage خلصت؟
+
+11️⃣ لو الـPackage خلصت
+
+نشرح للعميل:
+
+✅ السرعة تم تخفيضها بسبب انتهاء الـQuota
+✅ السرعة قد تصل إلى 256 Kbps
+
+ثم:
+
+أول اختيار
+
+نعرض:
+
+✅ Early Renewal
+
+لو رفض:
+
+→ نعرض Extra Quota
+
+لو رفض كل ده:
+
+→ ينتظر حتى موعد التجديد.
+
+ولو الباقة لم تنتهِ:
+
+→ نكمل Troubleshooting الطبيعي.
+
+12️⃣ Wi-Fi Instability
+
+نسأل العميل:
+
+هل المشكلة بتحصل بسبب شبكة الـWi-Fi؟
+
+لو Yes
+
+نطلب منه يفصل:
+
+✅ 5 GHz
+
+أو حسب الحالة يوقف التبديل بين:
+
+5 GHz ↔ 2.4 GHz
+
+لأن المشكلة ممكن تكون بسبب الـSwitching بين الشبكتين.
+
+13️⃣ Wireless Signal Disconnection
+
+في حالة Wireless Signal Disconnection:
+
+الـCase:
+
+FBB Tech Problem → Wireless → Signal Disconnection
+
+ولو مفيش إمكانية لتجربة Router آخر:
+
+→ نقرب العميل من الـCPE
+→ أو نعرض Technical Visit / Follow-up حسب الحالة.
+
+🚨 14️⃣ NOC Contact Timing
+
+لو هنصعد لـNOC:
+
+الـNOC قد يتواصل مع العميل بعد حل المشكلة بساعتين.
+
+ولو القسم المختص محتاج يتواصل خارج وقت العميل:
+
+الوقت الطبيعي المذكور:
+
+8 AM → 10 PM
+
+ولو الـCustomer متاح بعد 10 PM:
+
+→ نعمل:
+
+✅ IR → Call ON
+
+ولو غير متاح:
+
+→ نبلغه إن التواصل سيكون 8 AM.
+
+15️⃣ Logical Instability — Escalation
+
+لو كل الخطوات فشلت:
+
+Pool:
+
+✅ NOC
+
+Status:
+
+✅ Open
+
+Communication:
+
+✅ Phone Call
+✅ SMS
+✅ Recorded Message
+
+SLA:
+
+🔥 2 Hours
+
+BSS Action:
+
+Broadband → Technical → ADSL/VDSL → Business Technical Support → Logical Instability
+
+وقبل التصعيد:
+
+✅ Mention لـ Dispatch Score
+✅ تأكد من Call On
+✅ خذ Mobile Number
+✅ اكتب Customer IP
+
+16️⃣ NOC Updates — Logical Instability
+Update 1
+Line is stable / no logs
+
+لو الـNOC قال إن الخط Stable من وقت معين:
+
+→ لو مفيش Logs بعد الوقت ده:
+
+✅ inform customer line is stable.
+
+ولو ظهرت Logs بعد الوقت والعميل لم يعمل Restart:
+
+→ Re-escalate Ticket.
+
+Update 2
+No problem from Network side
+
+→ العميل يجرب Another CPE.
+
+Update 3
+Outage
+
+نتأكد من:
+
+CST360 → Outage
+
+لو موجود:
+
+→ نبلغ العميل بالـOutage SLA.
+
+لو مفيش:
+
+→ Leader Team للتحقق من وجود Outage.
+
+🟨 17️⃣ POP Congested / Within Ratio
+
+ده معناه إن الخدمة DSL فيها:
+
+✅ Shared Bandwidth
+
+وWithin Ratio حالة طبيعية، وممكن العميل يشعر ببعض البطء وقت الضغط.
+
+لو NOC أكد:
+
+POP Congested / Within Ratio
+
+→ الـUtilization Sheet يتم تحديثها.
+
+وبالنسبة للـTDM:
+
+✅ Matrix
+
+وباقي الخطوط:
+
+✅ CST360.
+
+🟪 18️⃣ PING Test
+
+لو محتاجين نعمل Ping:
+
+Google Ping
+
+العميل:
+
+Windows + R
+
+→ يكتب:
+
+CMD
+
+ثم:
+
+ping Google_IP -t
+
+وفي CMD أخرى:
+
+ping 192.168.1.1 -t
+
+ثم ينتظر حوالي:
+
+✅ 30 Seconds
+
+ثم:
+
+CTRL + C
+
+ولو العميل على Wi-Fi:
+
+⚠️ لازم يستخدم Cable أثناء الاختبار.
+
+19️⃣ Google Packet Loss
+
+لو Google Packet Loss:
+
+✅ ≤ 20%
+
+نوضح للعميل إن المشكلة ليست من ناحيتنا.
+
+ثم:
+
+→ Restart PC
+→ تجربة Windows أخرى / PC آخر
+→ CPE آخر إذا استمرت المشكلة.
+
+20️⃣ Google Packet Loss > 20%
+
+نراجع كمان:
+
+192.168.1.1
+
+لو فيه Packet Loss للـCPE:
+
+نوضح إن المشكلة ليست من ناحيتنا.
+
+ثم:
+
+→ Restart PC
+→ إعادة Ping
+→ Windows/PC آخر
+→ CPE آخر.
+
+والـPC لازم يكون متصل بـ:
+
+✅ Cable.
+
+🟦 Logical Instability SRs
+General
+
+New Escalation
+→ Logical Instability → Case Needs to be Escalated
+
+After SLA
+→ Logical Instability → Follow Up After SLA
+
+Re-Escalation
+→ Logical Instability → Escalation-Re
+
+Not beside CPE
+→ Logical Instability → Not beside CPE
+
+Customer will Reset
+→ Logical Instability → Will FUB & Reset
+
+CPE Page not accessed
+→ Logical Instability → CPE Page not accessed
+
+Multiple Logs SRs
+
+Solved after Configuration
+→ Multiple Logs → Instability → Configuration
+
+Check with another CPE
+→ Multiple Logs → Check With Another CPE
+
+Follow Up
+→ Multiple Logs → Follow Up
+
+After Reset & Configuration
+→ Multiple Logs → Will check service after Reset and Configuration
+
+CPE Problem
+→ Multiple Logs → CPE Problem
+
+Laptop/CPE Issue
+→ Multiple Logs → Laptop/CPE Issue
+
+No Multiple Logs
+
+Check Another OS/PC
+
+Check Another CPE
+
+Follow Up
+
+Restart PC
+
+CPE Problem
+
+Laptop/PC Issue
+
+Smart Phone Issue
+
+Direct CST to CSO
+
+🔴 ثانيًا: SLOWNESS
+21️⃣ يعني إيه Slowness؟
+
+العميل عنده Internet:
+
+✅ Working
+
+لكن:
+
+❌ الكفاءة/السرعة بطيئة.
+
+أول حاجة:
+
+→ افتح Maker Ticket
+
+واختار:
+
+Slow But Working Internet
+
+ثم نراجع الـPackage.
+
+22️⃣ Package Exhausted
+
+لو الـQuota خلص:
+
+والسرعة نزلت إلى:
+
+✅ 256 Kbps
+
+→ نشرح إن السبب انتهاء الباقة.
+
+نعرض:
+
+Early Renewal
+Extra Quota
+الانتظار لميعاد التجديد
+
+23️⃣ لو Package لم تنتهِ
+
+→ نتابع:
+
+✅ Bad Line Quality / BLQ
+
+مع التأكد:
+
+❌ مفيش Major Fault على ADF.
+
+وفي BLQ لازم نعرف:
+
+✅ Port Type
+
+خصوصًا:
+
+VDSL / SVDSL
+
+ونعمل Offering Change حسب الـProcess.
+
+🟩 24️⃣ Hayah Karima + Slowness
+
+لو الخط تابع لـHayah Karima:
+
+نشوف السرعة الفعلية.
+
+لو:
+
+✅ 5 Mbps
+
+→ Run ASSIA within 24H
+
+ونشوف نتيجة Clear View.
+
+لو:
+
+Recommended is Dispatch Technician
+
+→ واضح إن فيه Physical Issue.
+
+لو:
+
+No DSL Physical Layer Issue
+
+→ نكمل Slowness.
+
+25️⃣ Non-Hayah Karima + ASSIA Supported
+
+نشوف:
+
+Operational Speed
+
+مقابل:
+
+Contracted Speed
+
+لو Operational أقل:
+
+→ نتابع Slowness.
+
+ثم:
+
+✅ Clear View
+
+Recommended Dispatch Technician
+
+→ Physical Problem.
+
+No DSL Physical Layer Issue
+
+→ نعمل:
+
+✅ ASSIA Run within 24H
+
+ثم نكمل Slowness.
+
+🟨 26️⃣ ASSIA Not Supported
+
+هنا نعتمد على:
+
+✅ Speed Attainable
+
+من:
+
+CST360
+
+ونقارنه بالـPackage.
+
+الجدول الموجود:
+
+Package	Service	Satisfactory Level
+Super — Up to 50 Mbps	ADSL	5 Mbps
+Mega — Up to 70 Mbps	VDSL	20 Mbps
+Ultra — Up to 100 Mbps	VDSL	40 Mbps
+—	VDSL	55 Mbps
+
+ولو Operational Speed:
+
+✅ أكبر من أو تساوي الـSpeed الموجودة بالجدول
+
+→ No BLQ problem
+
+→ نكمل Slowness.
+
+27️⃣ Check Congested Status في Slowness
+
+قبل أي Logical Case:
+
+✅ Logical Verification
+
+ثم:
+
+CST360 → POP Utilization / Congested Status
+
+Congested / Within Ratio
+
+→ نوقف troubleshooting
+→ Script الحالة.
+
+Not Congested
+
+→ نكمل.
+
+28️⃣ Port Restart
+
+نشوف هل حصل:
+
+✅ Port Restart خلال أسبوع
+
+من:
+
+TDM
+
+→ Matrix Logs
+
+Other Lines
+
+→ CST New → Port Actions.
+
+لو مفيش Port Restart خلال أسبوع:
+
+→ نعمل Port Restart.
+
+لو اتحلت:
+
+→ نبلغ العميل ونقفل بالـSR المناسبة.
+
+29️⃣ عدد الأجهزة على الشبكة
+
+من:
+
+✅ HDM
+
+نشوف عدد الأجهزة المتصلة.
+
+لو أكثر من جهاز:
+
+→ نطلب من العميل يخلي جهاز واحد فقط.
+
+لو العميل بيقول جهاز واحد لكن السيستم شايف أكثر:
+
+→ نغير:
+
+Wi-Fi Name + Password
+
+ممكن نعمل التغيير من HDM.
+
+ولو المشكلة مستمرة:
+
+→ نكمل Troubleshooting.
+
+30️⃣ نوع الـSlowness
+
+نسأل العميل:
+
+هل البطء في:
+
+Browsing؟
+Download؟
+Streaming؟
+
+دي نقطة مهمة جدًا لأنها بتحدد باقي الـFlow.
+
+🟦 31️⃣ Streaming
+
+لو المشكلة في Streaming:
+
+أول حاجة:
+
+→ يفتح YouTube
+
+→ يخلي Quality على Auto
+
+ويجرب.
+
+لو اتحلت:
+
+→ نوضح إن بعض المواقع ممكن يحصل فيها ضغط.
+
+لو المشكلة مستمرة:
+
+→ نكمل باقي الخطوات.
+
+32️⃣ Streaming — Non-WE IPTV
+
+نسأل:
+
+المشكلة على كل المواقع ولا مواقع معينة؟
+
+All Websites
+
+→ Normal Streaming Case
+
+Certain Non-WE IPTV Sites
+
+→ نوضح إن دعم الخدمة من مقدم الـIPTV نفسه، وممكن يكون السبب ضغط على الخدمة.
+
+SR:
+
+FBB Tech Problem → Unsupported Services → Streaming Issue - Non WE IPTV
+
+🟩 33️⃣ Browsing / Download
+
+لو العميل عنده مشكلة Browsing:
+
+نستخدم موقع:
+
+✅ eg.te
+
+ونشوف Router Type.
+
+WE Router
+
+→ نضيف Google DNS من HDM
+
+Other Router
+
+→ العميل يضيف DNS بنفسه.
+
+ثم:
+
+→ Port Restart
+
+لو المشكلة مستمرة:
+
+→ نغير MTU إلى 1420
+
+ثم نجرب مرة أخرى.
+
+🔥 34️⃣ Download Rate
+
+نشوف العميل بيعمل Download بسرعة كام.
+
+من:
+
+✅ ASSIA → Realtime Traffic
+
+ونحدد السرعة أثناء التحميل.
+
+نطلب من العميل يحمل:
+
+✅ File واحد فقط
+
+ونأخذ:
+
+Traffic Speed
+
+ونضعها في:
+
+✅ Traffic Calculator
+
+ونقارنها بـ:
+
+Operational Speed
+
+35️⃣ Accepted Download
+
+لو Traffic Calculator قال:
+
+✅ Accepted
+
+→ نبلغ العميل إن سرعة التحميل مناسبة لسرعته الحالية.
+
+36️⃣ Not Accepted
+
+لو:
+
+❌ Not Accepted
+
+بعد محاولة التحميل:
+
+→ Reconfigure & Reset
+
+ثم نجرب Download مرة أخرى.
+
+لو ما زالت:
+
+→ تجربة PC/OS آخر.
+
+ثم نعيد Download.
+
+ولو العميل يستخدم Download Manager متخصص:
+
+→ نطلب تحميل 3 Files بالتتابع من مواقع مختلفة/YouTube حسب الـprocess.
+
+🚨 37️⃣ Slowness Escalation
+
+لو بعد كل الخطوات المشكلة مستمرة:
+
+Pool:
+
+✅ NOC
+
+Status:
+
+✅ Open
+
+Communication:
+
+✅ Phone Call / SMS / Recorded Message
+
+SLA:
+
+🔥 2 Hours
+
+BSS:
+
+Broadband → Technical → ADSL/VDSL → Business Technical Support → Speed
+
+قبل التصعيد:
+
+✅ Dispatch Score
+✅ Router يفضل On
+✅ Ticket Number
+✅ طرق التواصل
+✅ Script التصعيد.
+
+38️⃣ Delayed NOC
+
+لو التصعيد تم بعد 6 PM:
+
+نسأل العميل هل متاح يستقبل مكالمة.
+
+Yes
+
+→ IR → Call ON
+
+No
+
+→ نبلغه إن التواصل سيكون 8 AM.
+
+🟥 39️⃣ NOC Updates — Slowness
+No Problem from Network Side
+
+نطلب:
+
+→ Google DNS
+→ MTU
+
+لو مستمرة:
+
+→ PC/Router آخر.
+
+ولو لسه:
+
+→ Customer يعمل Google IP Trace
+
+ويرسل Screenshot إلى:
+
+Customer.care@te.eg
+
+ثم نعمل Re-escalation ونكتب:
+
+Feed us with a trace from customer side.
+
+40️⃣ Customer Exceeded Quota
+
+لو NOC Update:
+
+Customer exceeded his quota
+
+❌ لا يوجد Technical Troubleshooting مطلوب.
+
+→ نشرح إن السرعة انخفضت بسبب استهلاك الباقة.
+
+→ Early Renewal
+
+أو:
+
+→ Extra Quota
+
+41️⃣ POP Congested / Within Ratio
+Within Ratio
+
+✅ طبيعي لخدمة DSL لأنها Shared Bandwidth.
+
+Congested
+
+→ فيه ضغط حالي على الأجهزة.
+
+وفي الحالتين:
+
+→ نستخدم Script الخاص بالحالة.
+
+🟪 42️⃣ OTS — Outage Tracking
+
+لو Update من NOC يشير لاختبار/متابعة خط معينة:
+
+OTS
+
+SLA:
+
+✅ 5 Working Days
+
+🔵 43️⃣ SPEED TEST
+
+في Technical Non-Complaint calls، وبعد حل المشكلة أو بعض الاستفسارات الفنية، ممكن نطلب من العميل عمل Speed Test لقياس كفاءة وسرعة الخط.
+
+الطريقة الأفضل:
+
+✅ PC / Laptop
+✅ Connected by Cable
+✅ Close all Active Sessions
+✅ Disconnect other Wi-Fi devices
+✅ Choose nearest WE Server
+
+ولو مفيش PC/Laptop/Cable:
+
+→ Speed Test Mobile App ممكن استخدامه حسب الـprocess.
+
+44️⃣ Speed Test Comparison
+
+بعد الـTest:
+
+Operational Speed < Package Speed
+
+→ نقارن Speed Test مع:
+
+✅ Operational Speed
+
+Operational Speed ≥ Package Speed
+
+→ نقارن Speed Test مع:
+
+✅ Package Speed
+
+🔥 45️⃣ أهم رقم في Speed Test
+
+الفرق بين:
+
+Speed Test
+
+و
+
+Package / Operational Speed
+
+≤ 30%
+
+✅ No Problem
+
+لأن النتيجة ممكن تختلف حسب:
+
+Device
+Website
+Browser
+Hardware capabilities.
+> 30%
+
+❌ نعمل:
+
+✅ Speed Test SR
+
+ثم نكمل Troubleshooting حسب الـCase، وغالبًا BLQ لو المشكلة مستمرة.
+
+Speed Test SR:
+
+FBB Tech Inquiry → Technical Inquiry → Speed Test
+
+⭐ DAY 9 — أهم الحاجات للحفظ
+Logical Instability
+
+ADSL Light ثابتة + Internet يفصل → Logical
+
+ASSIA Clear View → Layer-Physical DSL No = Logical
+
+Logical Verification قبل الـTroubleshooting
+
+Congested / Within Ratio → Stop + Script
+
+Multiple Login > 3 + gap > 3 min → Reconfigure & Reset → CPE → Visit → NOC
+
+Multiple Login ≥ 3 + gap ≤ 3 min → Reconfigure & Reset → NOC
+
+NOC Logical Instability → 2H
+
+Pool = NOC
+
+Status = Open
+
+Communication = Phone/SMS/Recorded Message
+
+Google Packet Loss ≤20%
+
+Ping CPE = 192.168.1.1
+
+Ping test = 30 sec
+
+Slowness
+
+Package Exhausted → 256 Kbps
+
+ASSIA Supported → Operational vs Contracted + Clear View
+
+Dispatch Technician → Physical
+
+No DSL Physical Layer Issue → Continue Slowness
+
+Not Supported → Speed Attainable + CST360
+
+Port Restart → Check last 7 Days
+
+More than one device → One Device
+
+Browsing → Google DNS → Port Restart → MTU 1420
+
+Download → ASSIA Realtime Traffic + Traffic Calculator
+
+Accepted → Speed is acceptable
+
+Not Accepted → Reconfigure & Reset → PC/OS → CPE حسب الحالة
+
+Slowness NOC → 2H
+
+Speed Test variance ≤30% → No Problem
+
+Speed Test variance >30% → Speed Test SR
+
+OTS → 5 Working Days
+
+🔥 أهم 10 أسئلة متوقعة
+
+1. ADSL light ثابتة والنت بيفصل؟
+✅ Logical Instability
+
+2. ASSIA result = Layer-Physical DSL No؟
+✅ Logical
+
+3. Logical Instability NOC SLA؟
+✅ 2 Hours
+
+4. Multiple Login gap ≤3 min؟
+✅ Reconfigure & Reset ثم NOC
+
+5. Google packet loss ≤20%؟
+✅ المشكلة ليست من جانب WE
+
+6. Package exhausted والسرعة 256 Kbps؟
+✅ Early Renewal / Extra Quota / Wait
+
+7. Browsing issue؟
+✅ Google DNS → Port Restart → MTU 1420
+
+8. Speed Test variance ≤30%؟
+✅ No Problem
+
+9. Speed Test variance >30%؟
+✅ Speed Test SR
+
+10. OTS SLA؟
+✅ 5 Working Days

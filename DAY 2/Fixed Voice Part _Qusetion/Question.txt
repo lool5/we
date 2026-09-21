@@ -1,0 +1,422 @@
+Question 1
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Cst from Alexandria (FTTH compound) and asked about SLA for new subscription, CCA will inform cst with
+
+عميل من اسكندرية في كومباوند و بيسأل عن مده تركيب الخط الفايبر في الاشتراك الجديد هنبلغ العميل بأية ؟
+
+
+Question 1Answer
+
+A.
+5 Days
+
+B.
+7 Days
+
+
+C.
+10 Days
+Feedback
+The correct answer is: 7 Days
+Question 2
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Cst asked about WE Ardy 40 Price SR will be
+
+عميل بيسأل على سعر باقة ارضي 35 هنستخدم SR  ايه
+
+Question 2Answer
+
+A.
+Fixed Voice SR Inquiry-Rate plan-We 40
+
+
+
+B.
+Fixed Voice SR Inquiry- Package  Minutes-Usage
+
+
+
+C.
+Fixed Voice SR Inquiry-Rate plan-Kalamy 40
+
+
+Feedback
+The correct answer is: Fixed Voice SR Inquiry-Rate plan-We 40
+Question 3
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+In case check availability result was (Not available and survey status: started) that mean …. ?
+
+في حالة ان أتقدم طلب إتاحة فنية والنتيجة ( غير متاح و طلب المعاينة بدا) ده معناه ايه ؟
+
+
+Question 3Answer
+
+A.
+Direct cst to CSO to check availability from there side
+
+
+
+B.
+inform cst Not available to new subscription
+
+
+
+C.
+Automatic survey request will be sent to measurement team
+
+
+Feedback
+The correct answer is: Automatic survey request will be sent to measurement team
+Question 4
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+ in case check availability result was (Not available and survey status: started) that mean …. ?
+
+في حالة ان أتقدم طلب إتاحة فنية والنتيجة ( غير متاح و طلب المعاينة بدا) ده معناه ايه ؟ 
+
+Question 4Answer
+
+A.
+inform cst Not available to new subscription
+
+
+B.
+Direct cst to CSO to check availability from there side
+
+
+C.
+Automatic survey request will be sent to measurement team
+
+Feedback
+The correct answer is:
+Automatic survey request will be sent to measurement team
+
+Question 5
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+CCA can know all order data from which function ?
+
+نقدر نعرف كل تفاصيل ال order من خلال ؟
+
+
+Question 5Answer
+
+A.
+View
+
+
+B.
+Modify
+
+
+C.
+Survey
+
+Feedback
+The correct answer is: View
+Question 6
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Cst has ….. days available to complete his FV subscribe after received SMS
+
+متاح مع العميل كام يوم علشان يستكمل إجراءات التعاقد على الخط الارضي ؟
+
+
+Question 6Answer
+
+A.
+30 Day
+
+
+B.
+1 Year
+
+
+C.
+14 Day
+Feedback
+The correct answer is: 14 Day
+Question 7
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+In case cst need to Add or Remove and VAS SLA will be:
+
+لو العميل عايز يشترك او يضيف خدمة في الخط الأرضي بيكون في خلال قد ايه ؟
+
+Question 7Answer
+
+A.
+5 WD
+
+
+B.
+On-Spot
+
+
+C.
+2 H
+
+Feedback
+The correct answer is: On-Spot
+Question 8
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+For FV: who can choose modify reason ( Operator Request ) ?
+
+من الى يقدر يعمل تعديل للطلب ويختار Operator request  ؟
+
+Question 8Answer
+
+A.
+Agent
+
+
+
+B.
+Supervisor
+
+
+
+C.
+Not available for both of them
+
+Feedback
+The correct answer is: Supervisor
+Question 9
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Cst need  check availability request , but did not know land line No in the same building or cabinet No … We must choose
+
+في حالة تقديم طلب الاتاحة الفنية و مفيش رقم ارضي في نفس المبني ولا رقم الكابينة هنا هنختار ايه ؟
+
+
+
+
+Question 9Answer
+
+A.
+Other
+
+
+
+B.
+MSAN/FTTH Exchange/TDM
+
+
+
+C.
+FTTH compound
+
+
+Feedback
+The correct answer is: Other
+Question 10
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+For FV: Cst has FTTH compound and need to new subscription Which service can subscribed in same Villa ?
+
+عميل ساكن في كومباوند FTTH يقدر بتعاقد على كام خط في الاشتراك الجديد في نفس الفيلا ؟
+
+Question 10Answer
+
+A.
+1 Line Data & 2 Line voice
+
+
+
+B.
+2 Line Data & 2 Line Voice
+
+
+
+C.
+1 Line Data & 1 Line voice
+
+
+Feedback
+The correct answer is: 1 Line Data & 2 Line voice
+Question 11
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+ In case this cst need to change to Monthly cycle, CCA will inform cst
+
+في حالة ان العميل عايز يغير نظام الدفع الى فاتورة شهريه هنبلغ العميل ايه  ؟
+
+
+Question 11Answer
+
+A.
+Inform cst available to change
+
+
+
+B.
+Inform cst not available to change
+
+
+Feedback
+The correct answer is: Inform cst not available to change
+Question 12
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+
+السيناريو: الساعة 3:30 العصر، عميلة اتصلت وأنت رديت بصوت هادي : "صباح الخير... وي... محمد معاك. اتشرف باسم حضرتك؟"
+
+العميلة ردت ببرود: "مساء الخير يا أستاذ، أنا منى... عندي مشكلة في الفاتورة."
+
+ليه العميلة ردت بـ "مساء الخير" وكان واضح في نبرتها إنها مش مرتاحة من البداية؟ تفتكر ايه الخطأ اللي حصل في المكالمة 
+
+
+
+Question 12Answer
+
+a.
+
+لأنك ماستخدمتش اسمها في الرد
+
+
+
+b.
+
+لأن صوتك كان واطي
+
+
+
+c.
+
+استخدمت تحية غلط - الساعة 30:30 العصريعني بعد الـ 12، والمفروض تقول "مساء الخير" مش "صباح الخير"
+
+
+
+d.
+
+انك قولت اسم الشركة الاول المفروض تبدأ باسمك انت بعدين اسم الشركة
+
+
+Feedback
+The correct answer is:
+
+
+استخدمت تحية غلط - الساعة 30:30 العصريعني بعد الـ 12، والمفروض تقول "مساء الخير" مش "صباح الخير"
+
+Question 13
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+This message means that
+
+الرسالة دى معانا ايه ؟
+
+
+Question 13Answer
+
+A.
+This account active from 19 Days
+
+
+
+B.
+This account status will change after 19 Day
+
+
+
+C.
+This account will suspend after 19 Days
+
+
+Feedback
+The correct answer is: This account status will change after 19 Day
+Question 14
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+This message means that
+
+الرسالة دى معناها ايه ؟
+
+
+
+Question 14Answer
+
+A.
+CST  has 2 landline number
+
+
+B.
+This number has internet account with WE
+
+Feedback
+The correct answer is: This number has internet account with WE
+Question 15
+Complete
+Mark 0.00 out of 1.00
+Flag question
+Question text
+
+السيناريو:أنت agent call center في شركة إنترنت، الساعة 3 العصر. عميل اتصل وقدم نفسه: "أنا مهندس طارق "
+
+بدأت تاخد منه التفاصيل وبعد دقيقتين احتجت ترجعله تاني، لكن نسيت اسمه بالظبط.
+
+إيه أفضل طريقة تتصرف بيها عشان تحافظ على الاحترافية في مرحلة الـ Connect؟
+
+
+
+Question 15Answer
+
+a.
+
+تخمن وتقول "أستاذ أحمد" على أمل إنك تكون فاكر صح
+
+
+
+b.
+
+تقوله بصراحة واحترام: "معذرة يا فندم، ممكن تفكرني باسم حضرتك تاني؟"
+
+
+
+c.
+
+تراجع  الـ system بسرعة وتسكت لحد ما تلاقي اسم صاحب الخط و تقوله
+
+
+
+d.
+
+تكمل المكالمة وتقول "حضرتك" بس من غير ما تستخدم اسمه تاني
+
+
+Feedback
+The correct answer is:
+
+
+تقوله بصراحة واحترام: "معذرة يا فندم، ممكن تفكرني باسم حضرتك تاني؟"

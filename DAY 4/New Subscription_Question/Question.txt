@@ -1,0 +1,320 @@
+Question 1
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+CST can make Early renewal for Super 20 GB 
+
+العميل يقدر يعمل تجديد مبكر لسوبر 20 جيجا
+
+Question 1Answer
+True
+False
+Feedback
+The correct answer is 'False'.
+Question 2
+Complete
+Mark 0.00 out of 1.00
+Flag question
+Question text
+SLA for FV door to door service is ?
+
+المده المتوقعه ل خدمة door to door فى الخط الارضي هى ؟
+
+Question 2Answer
+
+A.
+12 H
+
+
+B.
+24 H
+
+
+C.
+48 H
+
+Feedback
+The correct answer is:
+48 H
+
+Question 3
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+We can restart Port from which tool 
+
+ من خلال restart port نقدر نعمل
+
+Question 3Answer
+
+A.
+OSS
+
+
+B.
+CST 360
+
+
+C.
+BSS
+
+Feedback
+The correct answer is: CST 360
+Question 4
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+SLA for new subscription for internet (MSAN\TDM) is
+
+مده التعاقد على خدمه الانترنت للخطوط (MSAN\TDM) ؟
+
+Question 4Answer
+
+A.
+5 days
+
+
+B.
+10 days
+
+
+C.
+7 days
+
+Feedback
+The correct answer is:
+5 days
+
+Question 5
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+CCA must inform CST about required Papers before direct CST to the Branch to subscribe to the internet service
+
+لازم ممثل خدمه العملاء يبلغ العميل بالأوراق المطلوبة قبل ما يروح للفرع علشان يشترك في خدمة الإنترنت؟
+
+Question 5Answer
+True
+False
+Feedback
+The correct answer is 'True'.
+Question 6
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+We must inform CST about Upload speed
+
+Upload لازم نبلغ العميل سرعه
+
+Question 6Answer
+True
+False
+Feedback
+The correct answer is 'False'.
+Question 7
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Corporate one invoice CST can add Extra Quota through
+
+عميل Corporate one invoice يقدر يضيف باقات اضافيه من خلال
+
+Question 7Answer
+
+A.
+111
+
+
+B.
+MY WE
+
+
+C.
+Branches
+
+Feedback
+The correct answer is:
+MY WE
+
+Question 8
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+If customer is only above 65 years old, CCA will consider him eligible for Door to Door and no need to check anything else:             
+
+لو العميل عمره فوق 65 سنة فقط، Agent هيعتبره مؤهل لمبادره Door to Door ومش محتاج يتأكد من أي حاجة تانية ؟
+
+Question 8Answer
+True
+False
+Feedback
+The correct answer is 'False'.
+Question 9
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+ CST can pay for the CPE in installments through the bank.
+
+يمكن للعميل سداد رسوم الروتر علي اقساط من خلال البنك 
+
+Question 9Answer
+True
+False
+Feedback
+The correct answer is 'True'.
+Question 10
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+If CST is eligible for (door to door) , your action
+
+ لو العميل متاح له مبادره door to door الإجراء اللي هتعمله
+
+Question 10Answer
+
+A.
+send mail
+
+
+B.
+create SR
+
+
+C.
+create TT
+
+Feedback
+The correct answer is: create TT
+Question 11
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+If any customer needs to subscribe with us we should check the following:
+
+لو العميل عايز يتعاقد معانا هنتحقق من 
+
+Question 11Answer
+
+A.
+Land line bills
+
+
+B.
+Land line bills and Check availability
+
+
+C.
+Check availability
+
+Feedback
+The correct answer is:
+Land line bills and Check availability
+
+Question 12
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+……..is up to 70M?         
+
+السرعة بتصل الي 70M في باقات ؟
+
+Question 12Answer
+
+A.
+Ultra
+
+B.
+Mega
+
+
+C.
+Super
+
+Feedback
+The correct answer is:
+Mega
+
+Question 13
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+From which tool can make check availability for new subscription for internet 
+
+من خلال اي نظام نقدر نشوف امكانيه الخط لتعاقد خدمه الانترنت ؟
+
+Question 13Answer
+
+A.
+CST 360
+
+
+B.
+Matrix
+
+
+C.
+OSS
+
+Feedback
+The correct answer is:
+CST 360
+
+Question 14
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which of those packages is Corporate Individual  
+
+أي من هذه الباقات مخصصة لـ Corporate Individual ؟
+
+Question 14Answer
+
+A.
+Corporate Super speed 1 - (140 GB) – AL
+
+
+B.
+Corporate Super speed 1 - (140 GB)
+
+Feedback
+The correct answer is:
+Corporate Super speed 1 - (140 GB)
+
+Question 15
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What is the current price of the available router?
+
+إيه سعر الراوتر المتاح دلوقتي؟
+
+Question 15Answer
+
+A.
+1500 with VAT
+
+
+B.
+1710 with VAT
+
+
+C.
+1600 with VAT
+
+Feedback
+The correct answer is:
+1710 with VAT

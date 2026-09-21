@@ -1,0 +1,359 @@
+Question 1
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+In case we found active speed on BSS tool is mega (up to 70) as below...... CST360/ Matrix is 30Mbpsd as below...... and active speed on ,,, that mean..
+
+في حالة لقينا ال active speed على ال bss tool كالاتى...... ولقينا ال active speed  على ال CST360 Tool او ال matrix كالاتى...... ده معناه
+
+
+
+
+Question 1Answer
+
+a.
+CST has No problem
+
+
+b.
+CST has speed variance problem
+
+
+c.
+CST must pay his bill
+
+Feedback
+The correct answer is:
+CST has speed variance problem
+
+Question 2
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+While CCA check CST Logs  found that Many Accepted Logs – Currently working,, Assia clear view result no DSL physical layer issue is detected 
+
+, CCA will handle case as:
+
+أثناء المتابعة مع العميل لقينا أن العميل عنده Many logs والخدمة حاليا شغالة ونتيجة فحص ال assia كانت no DSL physical layer issue is detected 
+
+
+
+Question 2Answer
+
+A.
+unable to obtain ip 
+
+B.
+physical instability 
+
+C.
+logical instability 
+Feedback
+The correct answer is: logical instability 
+Question 3
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which actions is supported by HDM tool
+
+اى من هذه ال actions ممكن عملها من خلال ال HDM Tool
+
+
+
+Question 3Answer
+
+a.
+Change Line Code
+
+
+b.
+Change CPE Page password
+
+
+c.
+Reset CPE
+
+Feedback
+The correct answer is:
+Reset CPE
+
+Question 4
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+In case we found  suspended service  as below, and cst no has bills and couldn’t remove it via cst 360 ,, cca action..
+
+في حالة اننا لقينا suspended service   زى ماهو واضح ,, ولا يوجد فواتير علي العميل ومقدرناش نعمله remove  من ال CST360 Tool ,, التصرف الصحيح هيكون
+
+
+Question 4Answer
+
+A.
+Restart port 2 times
+
+
+
+B.
+Escalate suspension case
+
+
+
+C.
+Ask CST to restart his CPE
+
+
+Feedback
+The correct answer is:
+Escalate suspension case
+
+Question 5
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+It's not  mandatory to use HDM Portal in Reset, Restart & Configure WLAN
+
+rest , restart , configure WLAN فى حالات HDM Tool  ليس من الضرورى استخدام ال
+
+
+Question 5Answer
+True
+False
+Feedback
+The correct answer is 'False'.
+Question 6
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+CST has speed variance,, CCA can follow any logical case normally
+
+عميل يعانى من مشكلة ال speed variance ,, ال agent يقدر يتابع معاه اى logical case بشكل عادى
+
+
+Question 6Answer
+True
+False
+Feedback
+The correct answer is 'False'.
+Question 7
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+In case we found Account is enabled on  CST360 as below .....  but suspended service is active on NST as below,,, first step will be..
+
+في حالة اننا لقينا ال account على ال CST360 tool : Enabled زى الصورة..... ولكن وجدنا ان الخط suspend على ال NST Tool بهذا الشكل اول خطوة لنا هتكون
+
+
+
+
+
+Question 7Answer
+
+a.
+check customer's bills on BSS before making any step
+
+
+b.
+reset cpe
+
+
+c.
+restart cpe
+
+Feedback
+The correct answer is:
+check customer's bills on BSS before making any step
+
+Question 8
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+CST Called us from other landline number and need to change his WIFI pw ,, CCA should make verification
+
+عميل اتصل بينا من رقم ارضي مختلف ومحتاج يغير pw الخاص بال WIFI ,, ال agent لازم يتابع معاه ال verification
+
+
+Question 8Answer
+True
+False
+Feedback
+The correct answer is 'True'.
+Question 9
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+In case line on HDM offline right action will be
+
+في حالة لقينا الخط على ال HDM Tool كان Offline ,, التصرف الصحيح هيكون:
+
+
+Question 9Answer
+
+A.
+should restart CPE
+
+
+
+B.
+Direct the customer to CSO
+
+
+
+C.
+Should restart Port
+
+
+Feedback
+The correct answer is: Should restart Port
+Question 10
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+IF you face any issue in HDM Portal you must log it in  the SR  with snapshot of the error
+
+في حالة مواجهتك لاى مشكلة من ال HDM Tool ,, يجب ان تضع screenshot من الerror في ال SR
+
+
+Question 10Answer
+True
+False
+Feedback
+The correct answer is 'True'.
+Question 11
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+CCA should check port type before trouble shoot BLQ case with CST
+
+الايجنت لازم يشوف نوع البورت الخاص بالعميل قبل ما يتابع معاه مشكله بطئ الخدمه
+
+Question 11Answer
+
+A.
+True
+
+
+B.
+False
+
+Feedback
+The correct answer is: True
+Question 12
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+SLA of escalation suspension case
+
+ 
+
+Question 12Answer
+
+a.
+48 h
+
+
+b.
+72 h
+
+
+c.
+1 Day
+
+Feedback
+The correct answer is:
+72 h
+
+Question 13
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+what the meaning of clear view result  NO DSL physical layer issue is detected like this picture:
+
+ما معنى ان ال clear view result NO DSL physical layer issue is detected مثل هذه الصورة
+
+
+
+
+Question 13Answer
+
+A.
+As per Assia observation the cst problem  physical
+
+
+
+B.
+As per ASSIA observation the cst problem not physical
+
+
+
+C.
+As per ASSIA observation the cst has to change cpe
+
+
+Feedback
+The correct answer is:
+As per ASSIA observation the cst problem not physical
+
+Question 14
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+We should follow Logical Verification before handling unable to obtain ip case
+
+لازم نتابع خطوات ال Logical Verification  قبل ما نبدأ خطوات مشكلة ال unable to obtain
+
+
+
+Question 14Answer
+
+a.
+TRUE
+
+
+b.
+FALSE
+
+Feedback
+The correct answer is:
+TRUE
+
+Question 15
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+While we follow logical verification we found CST has no logs in last hour and we didn’t restart port within our TS,,, CCA Action..
+
+في حالة متابعة خطوات ال logical verification ,, لقينا ان العميل معندهوش اى logs في اخر ساعة ,, ولم نقم بخطوة ال restart port اثناء الخطوات اللى تابعناها,, التصرف الصحيح سيكون:
+
+
+
+Question 15Answer
+
+a.
+Direct cst to cso
+
+
+b.
+Restart port
+
+
+c.
+Ask CST to restart his cpe
+
+Feedback
+The correct answer is:
+Restart port

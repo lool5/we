@@ -1,0 +1,846 @@
+🟦 DAY 7 — FULL REVIEW
+
+Day 7 أهم جزء فيه هو Case Detection + TTS + Logical Verification + ASSIA + HDM، وده الجزء اللي لازم تحفظ الـflow بتاعه كويس جدًا.
+
+1️⃣ Case Detection — البداية
+
+أول ما العميل يتصل:
+
+Step 1
+
+تجيب:
+
+Customer Name
+Router Type من HDMTool أو ASSIA
+
+وبعدين تشيك:
+
+CST360 → Outage
+
+لو فيه Outage
+
+❌ توقف Troubleshooting
+✅ تبلغ العميل بالـOutage والـSLA.
+
+2️⃣ Check TTS History
+
+بعد الـOutage:
+
+لو فيه TTS
+
+نشوف حالة الـTicket.
+
+CPE Update / Code 74
+
+→ نتبع CPE Update Process.
+
+Closed Ticket
+
+نقارن وقت الـClosure:
+
+داخل 5 Days
+
+→ تعمل New Ticket
+→ وتنسخ الـTroubleshooting من الـPrevious Ticket
+→ وتتصرف بناءً على آخر Update من 3rd Level Pool.
+
+أكثر من 5 Days
+
+→ تعيد الـTroubleshooting من البداية
+→ ثم Escalation حسب الحالة.
+
+Open Ticket
+
+→ تكمل على الـExisting Ticket حسب الـSection.
+
+3️⃣ لو مفيش TTS Ticket
+
+نراجع:
+
+BSS SR History
+
+وبعدها:
+
+BSS FBB Account
+
+4️⃣ BSS FBB Account Suspended
+
+لو الحساب Suspended:
+
+نسأل العميل:
+
+المشكلة Voice ولا Data؟
+Data Issue
+
+→ العميل لازم يدفع الـBill الأول.
+
+ويقدر يدفع من:
+
+WE My / E-Care
+
+ثم يتبع Call Back Process.
+
+Voice Issue
+
+→ نكمل الـTroubleshooting.
+
+5️⃣ Check FBB Package
+
+نشوف الـPackage:
+
+Suspended
+
+لو المشكلة:
+
+Wireless
+Voice
+
+→ نكمل troubleshooting.
+
+أما أي مشكلة أخرى:
+
+→ Payment First
+
+6️⃣ Check Fixed Voice Status
+
+نشوف الـFV على:
+
+CST360
+
+TDM
+
+لو Disabled بدون Cancellation:
+
+→ Adjust من CST360.
+
+لو مازالت Disabled:
+
+→ Individual Case
+
+MSAN
+
+نراجع FV Status من:
+
+FV Profile → Port Details
+
+لو Suspended:
+
+→ Suspension Temp Remove
+
+لو مازالت Disabled:
+
+→ Individual Case
+
+ولو Used:
+
+→ Adjust من CST360.
+
+7️⃣ BSS Operator Request Barring
+
+لو BSS بتقول إن الـFV Barring بسبب:
+
+Operator Request
+
+والـline Disabled:
+
+→ نبلغ العميل يدفع Landline Bill لتجنب interruption.
+
+ثم نعمل الـAdjust Process.
+
+ولو BSS نفسها بتقول FV Suspended:
+
+→ Bill First.
+
+🟨 8️⃣ FBB Active + FV Enabled
+TDM
+
+نشوف:
+
+Matrix → Blocked
+
+Blocked
+
+نشوف BSS Package Status.
+
+Package Suspended + Data Issue
+
+→ Pay Bill.
+
+Package Suspended + Voice Issue
+
+→ Voice Verification ثم escalation حسب الحالة.
+
+Package Active + Matrix Blocked
+
+→ Port Restart
+
+ولو المشكلة مستمرة:
+
+→ Individual Case
+
+Matrix Not Blocked
+
+نشوف Service في BSS.
+
+لو:
+
+Pack Option / Family
+
+→ Transfer Queue.
+
+غير كده:
+
+→ Normal troubleshooting.
+
+🟦 9️⃣ MSAN + FBB Active + FV Enabled
+
+نراجع FV Status من:
+
+Port Details
+
+Active
+
+→ لو المشكلة Suspension status، نعمل Suspension Temp Remove حسب الحالة.
+
+لو مازالت Suspended:
+
+→ نبلغ العميل ينتظر 1 Hour.
+
+بعدها:
+
+لو Used → HOLD + Call Landline.
+لو Normal Ring → لا يوجد Problem.
+لو Recorded Message → Individual Case.
+Operator Request Barring
+
+→ Pay Bill
+→ Suspension Temp Remove
+→ Wait 1 Hour
+
+لو مازالت المشكلة:
+
+→ Callback + Individual Case.
+
+🔥 1️⃣0️⃣ TTS — Important Rules
+
+بيانات الـTicket لازم تكون صحيحة:
+
+Router Type
+Mobile Number
+Problem
+باقي البيانات المطلوبة.
+
+قبل:
+
+Re-escalation / Update / Closing
+
+لازم تتأكد إن البيانات صحيحة.
+
+1️⃣1️⃣ Withdraw Ticket
+
+لا يمكن Withdraw إلا لو الـTicket في:
+
+✅ First Level
+
+ولا يمكن Withdraw لو في:
+
+❌ Follow Up
+❌ Second Level / Advanced
+❌ Pilot SLS
+❌ Pilot Follow Up
+❌ IU
+
+ولو هتعمل Withdraw:
+
+→ Supporter Group = Current Team
+→ Manager Ticket = Own User
+→ اضغط Update بعد كل تغيير.
+
+1️⃣2️⃣ Physical Ticket + Logical Problem
+
+لو الـPhysical Ticket موجود عند Third Level والعميل عنده Logical Issue:
+
+أولًا نتأكد إن الـPhysical Issue اتحلت.
+
+لو Logical Problem اتحلت أثناء المكالمة
+
+→ Don't Withdraw
+
+فقط:
+
+→ Update the Ticket.
+
+لو محتاجة Escalation
+
+→ Create IR + Type
+→ اكتب الـOld Group + الـNew Case
+→ وأضف كل الـTroubleshooting في Comments.
+
+1️⃣3️⃣ New Complaint + Existing Ticket
+
+لو العميل عنده Ticket مفتوحة في Pool أخرى:
+
+غالبًا:
+
+✅ نكمل على الـCurrent TTS
+✅ نسجل كل الـNew Troubleshooting.
+
+لكن فيه Exceptions، منها:
+
+IU
+
+🟥 1️⃣4️⃣ ASSIA + Physical Instability / BLQ
+
+في حالات:
+
+Physical Instability / BLQ
+
+الـCCA لازم يعمل:
+
+ASSIA → Run View → Clear View → Last Fix within 24H
+
+1️⃣5️⃣ Physical Re-Escalation
+
+لو نفس المشكلة مازالت موجودة:
+
+→ Confirm issue still persists.
+
+→ Create:
+
+SR Escalation-Re
+
+ثم نكرر الـValidation والـTroubleshooting.
+
+والـComments لازم تحتوي كل خطوة تمت.
+
+1️⃣6️⃣ 5 Minutes Rule
+
+بعد المكالمة:
+
+✅ عندك 5 Minutes فقط لأي Update على Escalation Complaint.
+
+لكن:
+
+IU
+
+❗ لازم يتم Escalation During the Call.
+
+1️⃣7️⃣ Ticket Title
+
+لازم الـTitle يكون متوافق مع الـProblem.
+
+ممكن تعدل:
+
+✅ Title
+✅ Problem
+
+بدون إغلاق الـTicket.
+
+ولازم تعمل:
+
+Refresh
+
+لأن الـDepartment ممكن يعمل Update أثناء المكالمة.
+
+❌ Don't Change Priority.
+
+❌ لا تحول Case Type إلى Case Type مختلف، باستثناء الـPhysical Cases حسب الـProcess.
+
+🟪 1️⃣8️⃣ Router Type Changed
+
+لو Router العميل مختلف:
+
+→ سجل الـNew Router Type في:
+
+Logs
+
+وتأكد من:
+
+Mobile Number
+
+1️⃣9️⃣ Closing Ticket
+
+نقفل الـTicket بعد الحل فقط عندما:
+
+✅ Customer confirms that the issue is fully solved.
+
+ولو المشكلة اتحلت عن طريق:
+
+New DSLAM / Frame / Port
+
+من خلال:
+
+New-on-Splitted-Re
+
+والعميل رجع له نفس المشكلة:
+
+→ Close old ticket
+→ Open new ticket حسب الحالة.
+
+2️⃣0️⃣ ID Port / NAS Issues
+
+كل مشاكل:
+
+ID Port / NAS
+
+يتم إغلاقها بـ:
+
+✅ Port NAS Removed
+
+سواء المشكلة اتحلت أثناء المكالمة أو Department آخر حلها.
+
+🟦 2️⃣1️⃣ Progress In Automation
+
+لو العميل قال:
+
+Problem solved
+
+أو محتاج:
+
+Compensation
+
+→ نبلغه إن Follow-up Department هيتواصل معاه.
+
+ولو عنده Problem أخرى:
+
+→ نتعامل معها بالـNormal Process.
+
+🟨 2️⃣2️⃣ Coordinator Team
+
+Coordinator Team مسؤول عن:
+
+Matrix Escalation
+
+لو عندهم Update:
+
+✅ نعتمد على الـUpdate حتى لو Ticket مازالت IU.
+
+2️⃣3️⃣ Technical Fault Team
+
+الـTechnical Fault Team تشمل:
+
+Unit Installation
+Maintenance
+IU
+
+وهي مسؤولة عن:
+
+Physical Issues
+
+❌ Don't Withdraw منهم.
+
+→ استنى الـSLA.
+
+لو الـUpdate فيه SLA:
+
+→ بلغ العميل بيه.
+
+🟥 2️⃣4️⃣ Fault Major / Hayah Karima
+
+لو مفيش SLA واضح والـUpdate:
+
+Fault Major
+
+→ استخدم Fault Major SLA.
+
+لكن في Hayah Karima لازم تفرق بين:
+
+Major Fault Outage
+
+و
+
+Hayah Karima SLA
+
+لو العميل عنده Major Fault Outage:
+
+→ بلغه بالـMajor Fault SLA.
+
+لو مفيش Major Fault:
+
+→ استخدم Hayah Karima SLA.
+
+🟩 2️⃣5️⃣ Logical Verification
+
+أي Logical Issue مثل:
+
+IP
+DHCP
+MTU
+DNS
+
+لازم تعمل:
+
+✅ Logical Verification First
+
+2️⃣6️⃣ Suspension Case
+
+من:
+
+CST360 → NST → Session → AAA Query → Get
+
+لو وجدنا Suspension:
+
+أولًا نتأكد:
+
+هل على العميل Bills؟
+No Bills
+
+→
+
+CST360 → Action Port → Remove Suspension → Port Restart
+
+لو المشكلة مازالت:
+
+→ IBM IT Ticket
+
+SLA:
+
+✅ 72 Hours
+
+وفي Delay:
+
+→ Renew SLA
+→ Tell customer ticket number
+→ Contact via call/SMS/recorded message حسب الـprocess.
+
+2️⃣7️⃣ IBM Ticket Suspension
+
+لو Digital أو Agent SLS عامل IBM Ticket:
+
+SR:
+
+FBB Tech Problem → Browsing → IBM Ticket - Suspended Account
+
+والـSLA:
+
+✅ 72 Hours from SR creation
+
+🟦 2️⃣8️⃣ Speed Variance
+
+أولًا:
+
+BSS → Package
+
+وبعدين:
+
+TDM
+
+→ Contracted Speed from Matrix
+
+Other Lines
+
+→ Contracted Speed from CST360
+
+لو فيه Difference:
+
+→ ASSIA → PO Run
+
+لو لم تحل المشكلة:
+
+→ IBM IT
+
+SLA:
+
+✅ 72 Hours
+
+⚠️ Speed Variance لها Priority على أي Logical Case آخر.
+
+🟨 2️⃣9️⃣ Package Exhausted ≠ Speed Variance
+
+لو السرعة نزلت لأن:
+
+Main Package Quota انتهت
+
+❌ ده مش Speed Variance.
+
+لأن السرعة هنا اتخفضت بسبب الـQuota.
+
+3️⃣0️⃣ Logs Check
+
+عندك 8 حالات أساسية:
+
+1. Logs Accepted — One
+
+نحدد نوع المشكلة:
+
+Browsing
+Slowness
+Instability
+
+وقبل بعض الحالات:
+
+→ ASSIA Traffic
+
+عشان نعرف هل User بيستهلك السرعة كلها.
+
+2. Many Accepted Logs — Currently Working
+
+لو المشكلة مش بسبب Restart:
+
+→ نتعامل كـLogical Instability حسب ASSIA.
+
+3. Many Accepted Logs — Currently Not Working
+
+لو:
+
+No Logs / No IP
+
+→ IP Obtain → Unable.
+
+لو عنده IP:
+
+→ Browsing.
+
+4. Wrong Username / Password
+
+نشرح:
+
+→ Correct Username & Password
+
+ويغيرهم على Router.
+
+ولو محتاج Reset:
+
+→ Reset.
+
+لو REJECT مستمر:
+
+→ IBM IT — 72H
+
+5. Accepted Logs + Suspended Account in NST
+
+→ Correct Username/Password Configuration.
+
+لو محتاج:
+
+→ Reset.
+
+لو REJECT مستمر:
+
+→ IBM IT 72H.
+
+6. Wrong NAS Port ID
+
+نتأكد من:
+
+CUDB → NAS Port ID
+
+ونتأكد إن:
+
+✅ One Router only
+
+ثم:
+
+→ Wrong Port NAS Update from New CST360
+→ Port Restart
+
+لو المشكلة مستمرة:
+
+→ NOC
+
+SLA:
+
+✅ 2 Hours
+
+7. No IP Obtained
+
+نسأل:
+
+Router Model?
+
+لو:
+
+532HG / 531HG
+
+→ Restart CPE.
+
+لو Fixed:
+
+→ نوضح إن Router هو سبب الـInstability وننصح بتغيير Router.
+
+لو المشكلة مستمرة أو Router مختلف:
+
+→ IP Obtain → Unable
+
+8. Service Not Found
+
+→ IBM IT
+
+SLA:
+
+✅ 72 Hours
+
+🟪 3️⃣1️⃣ ASSIA
+
+Login:
+
+→ Overview
+→ DSL
+→ Account Number
+
+Provisioned
+
+✅ Supported by ASSIA.
+
+Not Provisioned
+
+❌ Not Supported.
+
+3️⃣2️⃣ ASSIA — PO Enable
+
+لو:
+
+PO Enable
+
+معناها إننا نقدر نعمل:
+
+Optimization Profile
+
+من:
+
+Action → Realtime PO → Start
+
+والـHistory من:
+
+Overview → Request Dates / Completion Dates
+
+والـRecommendation Service يوضح:
+
+✅ Recommended Speed
+
+3️⃣3️⃣ ASSIA — XELT Analysis
+
+مهم مع:
+
+ADSL Light
+Physical Line Issues
+Possible Distance Issue
+
+من:
+
+DSL → XELT → Perform
+
+ممكن يظهر:
+
+Distance
+أو NA
+3️⃣4️⃣ ASSIA Traffic
+
+من:
+
+Realtime Data → Traffic
+
+نشوف:
+
+✅ Speed
+✅ Traffic
+
+🟦 3️⃣5️⃣ ASSIA Clear View
+
+لو ظهر:
+
+NO DSL physical layer issue is detected
+
+المعنى:
+
+✅ حسب ASSIA، المشكلة ليست Physical.
+
+وده كان من الأسئلة المهمة في الـTrial.
+
+🟩 3️⃣6️⃣ HDM
+
+HDM Tool بيدعم:
+
+✅ Reset CPE
+✅ Reboot / CPE Restart
+✅ WLAN Configuration
+
+يعني HDM مهم جدًا في:
+
+Reset + Restart + Configure WLAN
+
+3️⃣7️⃣ HDM Offline
+
+لو HDM:
+
+Offline
+
+فالـAction الصحيحة:
+
+✅ Restart Port
+
+دي من الأسئلة اللي لازم تتحفظ حرفيًا.
+
+3️⃣8️⃣ HDM Problem
+
+لو حصل Error أثناء HDM Action:
+
+→ Screenshot للـError.
+
+→ Add screenshot داخل الـSR.
+
+❌ Don't direct customer to branch بسبب مشكلة HDM.
+
+3️⃣9️⃣ Wi-Fi Password
+
+لو العميل يريد تغيير Wi-Fi Password:
+
+لازم:
+
+✅ Verification
+
+خصوصًا لو العميل بيتصل من:
+
+Different Landline
+
+🔥 DAY 7 — أهم الإجابات المحفوظة للـTrial
+
+دي الإجابة النهائية اللي اتأكدنا منها في المحاولة الثانية:
+
+1-B | 2-C | 3-C | 4-B | 5-F | 6-F | 7-A | 8-T | 9-C | 10-T | 11-T | 12-B | 13-T | 14-T | 15-B
+
+أهمهم:
+
+Speed Variance → B
+
+Many Accepted Logs + Currently Working + No Physical Issue → C
+
+HDM Supported Reset CPE → C
+
+Suspended + No Bills + Can't Remove Suspension → B
+
+Speed Variance can follow any logical case normally → False
+
+HDM Offline → Restart Port
+
+CST360 Enabled + NST Suspended → Check Bills First
+
+Wi-Fi Password from different landline needs Verification → True
+
+HDM Offline → Restart Port
+
+HDM Error → Screenshot in SR → True
+
+CCA must check Port Type before BLQ Troubleshooting → True
+
+Suspension Escalation → 72H
+
+ASSIA "NO DSL physical layer issue is detected" → Problem is not Physical
+
+Logical Verification before Unable to Obtain IP → True
+
+No Logs + No Port Restart during Troubleshooting → Restart Port
+
+⭐ حفظ الأرقام دي جدًا
+Point	Answer
+Closed TTS threshold	5 Days
+Suspension IBM IT	72H
+Speed Variance IBM IT	72H
+Wrong NAS Port ID → NOC	2H
+ASSIA Last Fix Clear View	Within 24H
+Wait after Suspension Temp Remove	1H
+Update Escalation Complaint after call	5 Minutes
+HDM Offline	Restart Port
+
+أخطر 4 حاجات في Day 7 للامتحان:
+Speed Variance → PO Run، HDM Offline → Restart Port، Logical Verification قبل Unable IP، وASSIA Clear View لا يوجد Physical Issue → المشكلة مش Physical.

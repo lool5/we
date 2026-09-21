@@ -1,0 +1,645 @@
+🟦 DAY 5 — FULL REVIEW
+1️⃣ Change Ownership
+يعني إيه Change Ownership؟
+
+نقل ملكية الخط الأرضي من شخص لشخص آخر.
+
+أهم الشروط:
+
+لازم:
+
+Transferor + Transferee يحضروا الفرع.
+يتم سداد أي Outstanding Amounts.
+لا يمكن نقل الملكية لشخص من Category مختلفة.
+بعد النقل يمكن تغيير الـCategory حسب الإجراءات.
+رسوم نقل الملكية: 50 EGP قبل الضريبة/الدمغة.
+الـTransfer يتم ON SPOT.
+حالات مهمة:
+
+Postpaid: يمكن الاحتفاظ بالـMonetary Balance حسب القواعد.
+
+Prepaid: لا يتم الاحتفاظ بالرصيد/الدقائق غير المستخدمة.
+
+الورثة:
+
+كل الورثة يحضروا ويوقعوا، أو يتم استخدام POA حسب الحالة.
+
+سؤال امتحان مباشر:
+
+SLA of Change Ownership = ✅ ONSPOT
+
+2️⃣ Change Location / Transfer Line
+
+لو العميل عايز ينقل الخط لمكان آخر:
+
+ممكن النقل بين Governorates.
+لازم الـLine Type يظل مناسبًا حسب القواعد.
+كل الفواتير والمستحقات يجب تسويتها.
+المكان الجديد يجب ألا يكون عليه Debt.
+يتم عمل Availability Check للمكان الجديد.
+مهم جدًا:
+
+TDM/MSAN → FTTH لا يتم كـTransfer Location
+
+في الحالة دي يتم التعامل معها كـNew Line / New Subscription حسب الـprocess.
+
+الرسوم:
+
+لـConsumer:
+
+داخل نفس الـProperty: 100 EGP
+خارج الـProperty: 200 EGP
+
+قبل الضرائب حسب المادة.
+
+3️⃣ Change Phone Number
+
+من أهم أجزاء Day 5.
+
+منين؟
+
+BSS → View → Order → Activities
+
+ونعمل Search باستخدام New Service Number.
+
+والـOld Number يظل موجود في النظام حسب الـprocess.
+
+الـActivities المهمة:
+WO Request
+WO Problem
+ADSL Portal Monitor
+Check MSAN Replacement
+DSL Check Combo
+Check Port Number
+Splitting Check Free Port
+Port Splitting
+Splitting Problem
+Network Activation Configuration
+Activation Problem
+WO Cancel Request
+Un-Splitting
+Network De-Activation
+IM Update
+Call Back to CRM
+Follow-up SRs:
+Change Phone Number Customer Request Within SLA
+Change Phone Number Customer Request After SLA
+MSAN Within SLA
+MSAN After SLA
+Automatic TT:
+
+Automatic TT - FBB | Change phone number | Welcome Call Activation | 24 H
+
+⚠️ نقطة تصحيح مهمة جدًا للامتحان:
+في الـTrial/Exam الفعلي عندك، Overall SLA لـChange Phone Number = 5 Days.
+
+يعني ما تحفظش 24H على أنها Overall SLA؛ الـ24H تخص الـAutomatic Welcome Call Activation TT. والـExam الفعلي أثبت إن الإجابة 5 D.
+
+4️⃣ Change Phone Number — Verification
+
+لو العميل عايز يغير Mobile Number:
+
+لازم تعمل Verification.
+
+والـChange يتم على الـMigration/Order حسب الحالة.
+
+الفكرة الأساسية:
+
+Verify → Change Number → Update/Follow Process
+
+5️⃣ Usage / Daily Usage
+إزاي نشوف Daily Usage؟
+
+من:
+
+BSS → Subscriber → CDR Query
+
+نحدد:
+
+Date / Period
+ثم Download Consumption File.
+
+وبعدها:
+
+Usage Tool من Wiki
+
+ومنها نعرف الـDaily Usage ونبلغ العميل.
+
+لو فيه Usage Complaint
+
+لو الـDaily Usage الموجود في الـCDR على BSS أعلى من نتيجة الـCalculation Tool:
+
+نعمل:
+
+FBB Non Technical Complaint → System Issue → Usage Complaint
+
+ولازم Screenshot واضحة من CST360 تحتوي على:
+
+Account Number
+Total Usage
+Operational Speed
+
+وكذلك يكون ظاهر Date + Time من جهاز الـCCA.
+
+⭐ مهم:
+
+Actual Daily Usage > Calculation Tool Result → Usage Complaint
+
+6️⃣ Change Main Package
+
+لو العميل عايز يغير الباقة الأساسية:
+
+أولًا:
+
+Verification
+
+ثم نراجع:
+
+Package الجديدة.
+السعر.
+الـQuota.
+الـBalance.
+Renewal Timing.
+7️⃣ Change Package — After Renewal Date
+
+لو العميل بعد Due/Renewal Date:
+
+الـCCA يعمل الـChange ويبلغ العميل:
+
+الـPackage الجديدة وسعرها.
+يعمل Suspension Reason = Suspension Migration Offer.
+العميل يشحن.
+يطلب منه الاتصال مرة أخرى خلال 1 Hour or less.
+بعد ساعة النظام يقوم بالـActivation.
+في المكالمة الثانية نعمل Verification.
+نكمل الـChange/Resume.
+⭐ احفظ:
+
+Change Package after due date → Recharge → Call back within 1 hour
+
+8️⃣ Change Speed / Package بدون Port Change
+
+لو Availability Check على CST360 أوضح أن الـVDSL Port/Card مناسب:
+
+يمكن تغيير:
+
+Speed / Package
+
+بدون تغيير Port.
+
+SLA:
+
+✅ On Spot
+
+والـChange يتم من:
+
+BSS → Offering Supplementary More
+
+9️⃣ Port Change
+Port فقط:
+
+✅ 48 Hours
+
+Port + Card:
+
+✅ 5 Working Days
+
+دي من أشهر أرقام Day 5.
+
+🔟 Suspension Life Cycle
+
+لو الخدمة Stopped/Suspended والعميل محتاج Change/Resume:
+
+لازم نفرق بين:
+
+السبب
+نوع الـAccount
+هل عنده outstanding bills
+هل هو FBB أو FV
+لو Suspension بسبب Billing:
+
+→ العميل يدفع الأول.
+
+1️⃣1️⃣ Convergent
+Migration to Convergent
+
+من:
+
+Sitemap → Integrated Operations (New) → FV and FBB Management → Convergent FV Migration
+
+شروط مهمة:
+FV + FBB لنفس الشخص / ID.
+Balance كافي.
+لا يوجد Outstanding Balance.
+لا يوجد Pending Balance.
+لا يوجد Pending Order.
+1️⃣2️⃣ Convergent → Standalone FBB
+
+لو العميل يريد يرجع من Convergent إلى FBB Standalone:
+
+لو بدون Rental Device:
+
+→ Normal Offering Change
+
+Offer FV + Service FBB Keep
+
+بعدها BSS ينشئ TT ويتم Follow-up.
+
+لو فيه Rental Device:
+
+يدخل في Retention Process منفصل.
+
+1️⃣3️⃣ Automatic Convergent Retention TTs
+Change Package:
+
+Automatic TT CONV FV Retention Process Change Package
+
+→ TT FV Retention
+→ SLA = 20 Hours
+
+Suspend Broadband:
+
+Automatic TT CONV FV-FBB Retention Process Suspend Broadband Retention
+
+→ TT FBB Retention
+→ SLA = 20 Hours
+
+1️⃣4️⃣ Convergent Cancellation
+
+عند Cancellation:
+
+يتم إنشاء TT حسب:
+
+Category
+CPE
+
+والـSLA:
+
+✅ 1 Day
+
+وأثناء Cancellation:
+
+❌ لا يوجد Refund للرسوم الخاصة بالإلغاء حسب الـprocess.
+
+أما VAS Refund:
+
+Automatic TT CONV FV Refund VAS offering fees
+
+→ Sales-Refund
+→ 24 Hours
+
+1️⃣5️⃣ E-Care TTs
+
+في Convergent، E-Care يمكن أن يولد:
+
+Electronic Request Suggestion
+Service Request
+Complaint
+Others
+
+والـComplaint:
+
+✅ 24H
+
+Termination FBB:
+
+✅ 20H
+
+🟧 1️⃣6️⃣ Extra Quota
+
+أنواع Extra Quota:
+
+1. One Time
+
+مرة واحدة.
+
+2. Recurring
+
+تتجدد شهريًا تلقائيًا.
+
+3. Up Level
+
+Gaming / special usage.
+
+4. Giga Tank
+
+One-time large quota.
+
+1️⃣7️⃣ One Time Extra Quota
+
+العميل يقدر يشتريها في أي وقت.
+
+ولا تتجدد تلقائيًا.
+
+الأسعار:
+Quota	بدون VAT	شامل VAT
+20 GB	52 EGP	59.28 EGP
+50 GB	105 EGP	119.70 EGP
+100 GB	170 EGP	193.80 EGP
+
+1️⃣8️⃣ Recurring Extra Quota
+
+الأسعار نفسها المذكورة فوق، لكن:
+
+Renew Monthly
+
+وتتجدد تلقائيًا.
+
+متاحة لـ:
+
+✅ FTTH
+✅ VDSL
+✅ ADSL
+
+Prepaid:
+
+أول إضافة عن طريق:
+
+CCA / Branch
+
+ثم يمكن استخدام:
+
+App / E-Care / IVR
+
+Postpaid:
+
+يمكن من:
+
+App / E-Care / IVR / CCA / Branch
+
+1️⃣9️⃣ Corporate Extra Quota
+Corporate One Invoice:
+
+إضافة Extra Quota من:
+
+✅ Mobile App
+
+لكن حسب المادة:
+
+❌ Early Renewal
+❌ Change Offering
+
+غير متاحة لهم ضمن هذا المسار.
+
+Corporate / AFMIC / Individual Corporate:
+
+لو العميل عنده Balance ويريد Extra Quota:
+
+→ Verification
+→ TT
+
+SLA:
+
+✅ 24 Working Hours
+
+Working Hours:
+
+9 AM → 5 PM.
+
+2️⃣0️⃣ Extra Quota بعد Recharge
+
+لو العميل شحن Extra Quota:
+
+المفروض السرعة والـQuota يظهروا على CST360.
+
+لو عدت:
+
+✅ 1 Hour
+
+ولم تظهر:
+
+→ Port Restart مرة واحدة
+
+ويجب أن تكون:
+
+Main Package = Active.
+
+🟨 2️⃣1️⃣ Giga Tank
+الباقات:
+
+400 GB
+
+420 EGP Before VAT
+478.80 EGP With VAT
+
+2000 GB
+
+1625 EGP Before VAT
+1852.50 EGP With VAT
+الشروط:
+
+Main Package = Active
+
+ويمكن للعميل:
+
+✅ شراء Giga Tank أكثر من مرة.
+✅ شراء أكثر من Giga Tank على نفس الـPackage.
+✅ شراؤها في أي وقت والـMain Package Active.
+
+الصلاحية:
+
+30 Days
+
+Renewal:
+
+❌ No Auto Renewal
+
+Rollover:
+
+❌ لا يتم ترحيل المتبقي.
+
+Channels:
+Call Center
+Branch
+WE My App
+Website
+Electronic Payment
+Corporate:
+
+✅ Corporate customers eligible.
+
+🟪 2️⃣2️⃣ Salfny — WE Home
+
+دي لازم تفرقها عن Salfny القديمة.
+
+WE Home Salfny:
+
+5 GB
+
+10 EGP
+
+2 Days
+
+متاحة:
+
+✅ Suspended Lines فقط
+
+وفي Exception:
+
+لو الخط عدى 30-day subscription period لكن الـstatus ما زال Active بسبب System Error، يمكن للـCCA إضافة الخدمة.
+
+غير متاحة لـ:
+
+❌ Corporate One Invoice
+❌ Individual
+❌ Postpaid
+
+Frequency:
+
+مرة كل 30 Days حسب المادة التي درستها.
+
+🟥 2️⃣3️⃣ Cash Payment Limit
+
+الـCash Payment Maximum:
+
+✅ 1000 EGP per monthly invoice
+
+وأكثر من ذلك يتم الدفع إلكترونيًا.
+
+لكن لو المبلغ One-time وليس متكررًا، توجد حالة تسمح بالكاش حتى لو أكبر من 1000 حسب القاعدة المذكورة في المادة.
+
+BSS Recharge Balance Maximum:
+
+✅ 60,000 EGP
+
+🟦 2️⃣4️⃣ Balance Fraction
+
+لو العميل ناقصه مبلغ بسيط لتنفيذ Action:
+
+يتم إضافة Balance Fraction.
+
+يستخدم في:
+Automatic Renewal
+Early Renewal
+Extra Quota
+Change Speed
+أهم شرط:
+
+Account Active
+
+Consumer:
+
+الحد الأقصى:
+
+✅ 3 EGP
+
+ماعدا 35 Ardy WE → 1 EGP
+
+Enterprise:
+
+الحد الأقصى:
+
+✅ 3 EGP
+
+والـVerification مطلوبة حسب الحالة.
+
+🔥 2️⃣5️⃣ أهم Trial Questions في Day 5
+Change Ownership SLA?
+
+✅ ONSPOT
+
+Customer wants Change Ownership?
+
+✅ Branch / both parties
+
+Change Phone Number SLA?
+
+✅ 5 Days ← دي مهمة جدًا.
+
+Automatic Change Phone Number Welcome Call?
+
+✅ 24 H
+
+Port only change?
+
+✅ 48 H
+
+Port + Card?
+
+✅ 5 WD
+
+Daily Usage?
+
+✅ BSS → CDR Query + Usage Tool
+
+Usage Complaint?
+
+✅ CDR Daily Usage أعلى من Calculation Tool.
+
+Change speed without Port?
+
+✅ On Spot
+
+Change Package after Due Date?
+
+✅ Recharge → Call back within 1 hour or less
+
+Recurring Extra Quota technologies?
+
+✅ ADSL + VDSL + FTTH
+
+Giga Tank:
+
+✅ 400GB / 2000GB
+✅ 30 Days
+✅ No Auto Renewal
+✅ Can buy more than once
+✅ Corporate eligible
+
+WE Home Salfny:
+
+✅ 10 EGP / 5 GB / 2 Days
+
+Cash limit:
+
+✅ 1000 EGP monthly invoice
+
+Max BSS Recharge Balance:
+
+✅ 60,000 EGP
+
+Balance Fraction:
+
+✅ Active Account
+
+Consumer Balance Fraction:
+
+✅ Max 3 EGP
+35 Ardy WE → Max 1 EGP
+
+⭐ أرقام Day 5 اللي تحفظها صم
+
+ONSPOT → Change Ownership
+
+5 D → Change Phone Number
+
+24 H → Welcome Call Activation TT for Change Phone Number
+
+48 H → Port Only
+
+5 WD → Port + Card
+
+24 H → Corporate Extra Quota
+
+20 H → Convergent Retention TTs
+
+1 D → Convergent Cancellation
+
+24 H → VAS Refund
+
+30 Days → Giga Tank validity
+
+2 Days → WE Home Salfny
+
+1000 EGP → Cash monthly invoice limit
+
+60,000 EGP → Maximum BSS balance
+
+3 EGP → Balance Fraction Consumer
+
+1 EGP → 35 Ardy WE Balance Fraction
+
+وده هو Day 5 بالمعلومات اللي موجودة في موادك، مع التأكيد على التصحيح المهم جدًا: Change Phone Number = 5 Days في الـquiz الفعلي، وليس 24H.
+
+
+

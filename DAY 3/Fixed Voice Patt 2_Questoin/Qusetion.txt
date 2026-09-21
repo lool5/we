@@ -1,0 +1,401 @@
+Question 1
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Way of subscription to internet service is …?
+
+طريقة الاشتراك علي خدمة الانترنت ؟
+
+Question 1Answer
+
+A.
+111
+
+
+B.
+Branches
+
+
+C.
+WE APP
+
+Feedback
+The correct answer is: Branches
+Question 2
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+In case cst need to transfer his FV account to receiving only SLA will be
+
+في حالة العميل عايز يحول الخط الأرضي يكون استقبال فقط يتحول في قد ايه ؟
+
+Question 2Answer
+
+A.
+2H
+
+
+
+B.
+1H
+
+
+C.
+On-spot
+
+
+Feedback
+The correct answer is: On-spot
+Question 3
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Cst  need to subscribe on new FV line (MSAN) will inform him SLA
+
+ هنبلغه بدة تركيبات (MSAN)العميل عايز يتعاقد على خط ارضي جديد 
+
+Question 3Answer
+
+A.
+5 Days
+
+
+
+B.
+7 Days
+
+
+
+C.
+10 Days
+
+
+Feedback
+The correct answer is:
+5 Days
+
+Question 4
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Cst request to suspend his FV account and cst has FBB account in same landline number So, CCA inform cst that
+
+العميل طلب انه يعمل إيقاف للخط الأرضي وعنده اشتراك انترنت على نفس الرقم الأرضي لازم نبلغ العميل ايه ؟
+
+
+Question 4Answer
+
+A.
+Internet not working If FV account is suspend
+
+
+
+B.
+Internet working normally
+
+
+Feedback
+The correct answer is: Internet not working If FV account is suspend
+Question 5
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+If cst has Suspended on BSS with this reason  , that’s mean
+
+لو العميل عنده ايقاف علي خطه علي الBSS .... معني الايقاف ده ايه ؟ 
+
+
+
+
+Question 5Answer
+
+A.
+Cst has violated contract Rules and not inform WE
+
+
+
+B.
+Cst request to suspend his account
+
+
+
+C.
+Cst didn’t pay landline bill  
+
+
+Feedback
+The correct answer is:
+Cst request to suspend his account
+
+Question 6
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+For FV: Subscription Fees for consumer is the same price for commercial ? 
+
+مصاؤيف تعاقد الخط المنزلي نفس الخظ التجاري
+
+Question 6Answer
+
+A.
+False
+
+
+B.
+True
+
+Feedback
+The correct answer is: False
+Question 7
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What is the first activity for FV order ?
+
+اول مرحلة تركيبات الخط الأرضي هي ؟
+
+
+Question 7Answer
+
+A.
+FV MSAN Installation Visit
+
+
+
+B.
+MSAN Network Activation
+
+
+
+C.
+Welcome Call TT
+
+
+Feedback
+The correct answer is: MSAN Network Activation
+Question 8
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+SLA for cancel & refund the amount within the FV instillation cycle will be
+
+المده المحدده لالغاء واسترداد الرسوم خلال فتره التركيب الخط الارضي هي ؟
+
+
+Question 8Answer
+
+A.
+5 D
+
+B.
+2 WD
+
+C.
+1 D
+
+Feedback
+The correct answer is: 2 WD
+Question 9
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+IF cst need to Add or Remove any VAS can take actions from
+
+ لو العميل عايز يضيف او يلغي خدمة في الخط الأرضي بيكون من خلال ايه ؟
+
+
+
+Question 9Answer
+
+A.
+111
+
+B.
+My-WE & E-Care
+
+C.
+CSO
+
+D.
+All of them
+Feedback
+The correct answer is: All of them
+Question 10
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+
+اتصل عميل وقال: "الإنترنت عندي مش شغال كويس”   من بداية المكالمة ازاي تقدر تتعامل بشكل صحيح وتفهم المشكلة الأساسية.
+
+وتفهم ما يحتاجه العميل Discover اي سؤال من التالي هو الأفضل أن تسأله أولاً لتدخل فعلاً مرحلة
+
+Question 10Answer
+
+a.
+"هل الرواتر شغال دلوقتي؟"
+
+
+b.
+"ممكن تحكيلي أكتر عن اللي بيحصل لما بتستخدم الإنترنت؟"
+
+
+c.
+"هل دفعت الفاتورة الشهرية؟"
+
+
+d.
+"متى بدأت المشكلة لأول مرة؟"
+
+Feedback
+The correct answer is:
+"ممكن تحكيلي أكتر عن اللي بيحصل لما بتستخدم الإنترنت؟"
+
+Question 11
+Complete
+Mark 0.00 out of 1.00
+Flag question
+Question text
+Cst not subscribe in International call VAS and calling us complaint from can’t make International call , CCA right actions is
+
+العميل غير مشترك فى خدمة المكالمات الدولية و بيتصل يشتكي من انه مش بيعرف يتصل باي رقم دولي هنعمل ايه في الحاله دي ؟
+
+Question 11Answer
+
+A.
+Direct cst to CSO to enable this service
+
+
+B.
+Add Enable international service VAS
+
+
+C.
+Inform cst his/her package not support international calls
+
+Feedback
+The correct answer is:
+Add Enable international service VAS
+
+Question 12
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Cst Follow up on his FV order and has (Automatic TT – FV-installation Voice-Unreachable) SO, CCA right action is   …. ?
+
+العميل بيتابع على order خط ارضي وفى Automatic TT في الحالة دى هنعمل ايه ؟
+
+Question 12Answer
+
+A.
+Close FCC ticket with close code 37
+
+
+
+B.
+Inform cst SLA 24H and someone will communicate with him
+
+
+
+C.
+The customer should be directed to the branch to modify the order
+
+
+Feedback
+The correct answer is: Close FCC ticket with close code 37
+Question 13
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Cst can’t make calls to 011 number and subscribe on WE Ardy 80 and these VAS , CCA right actions is
+
+العميل مش عارف يكلم اى رقم 011 ومشترك على باقة ارضي 80 وعنده الخدمات دى هنعمل ايه ؟
+
+
+Question 13Answer
+
+A.
+Inform cst to recharge balance to make calls out of his package
+
+
+
+B.
+Remove Disable Other mobile service
+
+
+
+C.
+Remove Disable WE mobile services
+
+
+Feedback
+The correct answer is:
+Remove Disable Other mobile service
+
+Question 14
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Cst complaint from Service still suspended after payment all landline bills, CCA will create :
+
+العميل بيشتكي ان الخدمة متوقفة بعد ما دفع الفواتير الى عليه وده سبب الإيقاف ؟
+
+
+Question 14Answer
+
+A.
+Create TT: Fixed Voice Complaint-System issue -Abnormal cases
+
+B.
+Create TT: Fixed Voice Complaint-System Issue-Suspended Offer
+
+C.
+Create TT: Fixed Voice Complaint-System Issue-Suspension Life Cycle or Arrears      
+
+Feedback
+The correct answer is:
+Create TT: Fixed Voice Complaint-System Issue-Suspension Life Cycle or Arrears      
+
+Question 15
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+  :عميل اتصل بك وقال بصوت منزعج
+
+"الإنترنت عندي بيفصل طول الوقت، وجربت كل حاجة ومفيش فايدة."
+
+لاحظت ان الخدمة مستقره خلال اخر 24 ساعة ولا يوجد مشكلة عامه فى المنطقه 
+ما هو أفضل سؤال يمكنك طرحه الآن لتكتشف المشكلة الحقيقية دون أن يشعر العميل أنك تتجاهل معاناته؟
+Question 15Answer
+
+a.
+"هل متأكد إن المشكلة من الإنترنت وليس من جهازك؟"
+
+
+b.
+"الخدمة شغالة كويس عندنا، حاول تراجع الأجهزة عندك."
+
+
+c.
+"ممكن توضحلي أكتر إمتى بالضبط بتحصل المشكلة، وهل على كل الأجهزة ولا جهاز معين؟"
+
+
+d.
+"هل جربت تعيد تشغيل الراوتر؟"
+
+Feedback
+The correct answer is:
+"ممكن توضحلي أكتر إمتى بالضبط بتحصل المشكلة، وهل على كل الأجهزة ولا جهاز معين؟"

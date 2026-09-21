@@ -1,0 +1,252 @@
+🟦 DAY 8 — FULL REVIEW
+
+من الملف المتاح، Day 8 الظاهر عندنا مرتبط بـ First Quiz (FTTH New 2026)، والموضوعات الأساسية فيه: Fixed Voice / New Subscription / Change Speed / Change Location / Change Phone Number / Check Availability / VAS / Router / Corporate Extra Quota.
+
+1️⃣ WE Ardy 80
+
+السؤال كان عن الخدمات المجانية مع WE Ardy 80، والاختيارات الموجودة هي:
+
+Caller ID + Follow Me
+Caller ID + Call Barring
+Follow Me + Call Waiting
+
+المصدر الذي عندنا يعرض السؤال والاختيارات فقط، ولم يظهر فيه مفتاح الإجابة الرسمي؛ لذلك مش هثبت اختيارًا من عندي.
+
+2️⃣ Change Speed from 111
+
+السؤال:
+
+This customer can change speed On Spot from 111?
+
+الاختيار يعتمد على نوع العميل الظاهر في صورة السؤال، والصورة نفسها غير متاحة كنص هنا، لذلك لا يصح أحدد True/False اعتمادًا على التخمين.
+
+المهم من الـMaster عندنا أن Change Speed بدون تغيير Port ومع صحة VDSL Port/Card = On Spot.
+
+3️⃣ Change Mobile Number & E-mail
+
+السؤال يسأل عن قنوات تغيير:
+
+Mobile Number + E-mail
+
+والاختيارات:
+A. Mobile App / E-Care
+B. Branches
+C. 111
+D. All of the above
+
+المصدر الحالي لا يحتوي على النتيجة النهائية للسؤال، لذلك لا هخمن الإجابة.
+
+4️⃣ Add / Remove VAS
+
+القنوات المعروضة في السؤال:
+
+111
+My WE & E-Care
+CSO
+All of them
+
+ومن الـMaster، إدارة بعض خدمات Fixed Voice تتم عبر Customer Service مع Verification، وكذلك الفروع وWE App وE-Care لبعض الخدمات.
+
+5️⃣ New Landline Subscription
+
+السؤال:
+
+For new Landline subscription: The main offer for consumer CST is
+
+الاختيارات:
+
+A. Prepaid Quarterly
+B. Prepaid Annual
+C. Prepaid Monthly
+
+دي نقطة لازم تتحفظ باعتبارها سؤال مباشر في الـQuiz.
+
+6️⃣ Calling from Different Landline
+
+السؤال بيقول إن العميل بيتصل من رقم أرضي مختلف وعايز يغير الباقة، وهل لا يحتاج Verification.
+
+✅ الإجابة المنطقية حسب الـprocess:
+
+FALSE
+
+لأن تغيير الطلبات الحساسة يحتاج Verification، وخصوصًا لما الاتصال من رقم مختلف. والسؤال نفسه معروض كـTrue/False.
+
+7️⃣ Papers Before Sending Customer to Branch
+
+السؤال:
+
+هل لازم CCA يبلغ العميل بالأوراق المطلوبة قبل ما يوجهه للفرع للاشتراك؟
+
+السؤال موجود في الـQuiz، لكن النص الذي عندنا لا يظهر نتيجته الرسمية، لذلك مش هثبت True/False بدون مصدر.
+
+8️⃣ Quarterly Customer
+
+Quartuly Customer will pay landline bill every:
+
+A. 90 Day
+B. 30 Day
+C. 365 Day
+
+✅ الإجابة: A — 90 Day
+
+9️⃣ New FV Line — MSAN
+
+السؤال عن SLA لعميل يريد الاشتراك في New FV Line (MSAN):
+
+A. 7 Days
+B. 5 Days
+C. 10 Days
+
+✅ B — 5 Days
+
+وده متوافق مع الـMaster: TDM/MSAN = 5 Days.
+
+🔟 Change Speed — SLA
+
+السؤال بيحدد نوع عميل من خلال صورة ثم يسأل عن SLA:
+
+A. 1 WD
+B. 3 WD
+C. 2D
+
+⚠️ الصورة هي اللي بتحدد الـcustomer type، لذلك لازم الصورة نفسها علشان نختار الإجابة بثقة.
+
+1️⃣1️⃣ Suspend FV مع وجود FBB على نفس الرقم
+
+السؤال:
+
+لو العميل طلب Suspend لـFV وعنده FBB على نفس الـLandline:
+
+A. Internet not working if FV account is suspended
+B. Internet working normally
+
+✅ B — Internet working normally
+
+1️⃣2️⃣ Current Router Price
+
+الاختيارات:
+
+A. 1500 with VAT
+B. 1600 with VAT
+C. 1710 with VAT
+
+✅ C — 1710 with VAT
+وده هو الاختيار الموجود في الـQuiz، لكن ملف التدريب المتاح هنا لا يعرض سطر التصحيح الرسمي للسؤال.
+
+1️⃣3️⃣ Follow-up on Check Availability
+
+السؤال:
+
+العميل بيتابع على Check Availability Request، نبلغه بإيه؟
+
+A. Not available for new subscription
+B. SLA 24H to receive SMS with request results
+C. Direct to CSO
+
+✅ B — SLA 24H to receive SMS
+
+1️⃣4️⃣ Change Location Is Free?
+
+السؤال:
+
+هل Change Location مجاني؟
+
+A. FALSE
+B. TRUE
+
+✅ A — FALSE
+
+لأن Change Location له رسوم حسب الحالة؛ الـMaster يذكر مثلًا 100 EGP داخل الـproperty و200 EGP خارجها للـConsumer Administration Transfer، قبل الضريبة.
+
+1️⃣5️⃣ Change Phone Number from 111
+
+السؤال:
+
+هل Change Phone Number request يتم من خلال 111؟
+
+A. True
+B. False
+
+✅ B — False
+
+ومن الـMaster: Change Phone Number يتم من خلال الـprocess على BSS، والـoverall SLA المؤكد 5 Days.
+
+1️⃣6️⃣ Change Package
+
+السؤال يحتوي على صورة تحدد نوع العميل ثم الاختيارات:
+
+A. inform CST call us before 7 days from renewal date
+B. Direct him to store
+C. Direct CST to authorize person
+
+⚠️ الصورة غير متاحة في النص المستخرج، لذلك لا هختار Answer من عندي.
+
+1️⃣7️⃣ Check Availability Request Channels
+
+الاختيارات:
+
+A. 111
+B. CSO
+C. My-WE & te.eg
+D. All of them
+
+✅ D — All of them
+
+1️⃣8️⃣ Corporate One Invoice — Extra Quota
+
+السؤال:
+
+Corporate One Invoice CST يقدر يضيف Extra Quota من:
+
+A. 111
+B. Branches
+C. My WE
+
+✅ C — My WE
+
+وده متوافق مع الـMaster: Corporate One Invoice can add Extra Quota via Mobile App only.
+
+1️⃣9️⃣ Prepaid Customer — Suspend / Bar FV
+
+الاختيارات:
+
+A. 111
+B. CSO
+C. My-WE & E-Care
+D. All of them
+
+✅ D — All of them
+
+2️⃣0️⃣ Change Location Follow-up After SLA
+
+السؤال عن الـSR لو العميل بيتابع على Change Location بعد انتهاء الـSLA:
+
+A. Inquiry — Policy and Procedures — Line Transfer
+B. Follow Up — Line Transfer — Follow Up Within SLA
+C. Follow Up — Line Transfer — Follow Up After SLA
+
+✅ C — Follow Up After SLA
+
+🔥 DAY 8 — الحاجات اللي تتحفظ
+
+Quarterly → 90 Days
+
+New MSAN FV → 5 Days
+
+FV Suspend + FBB same number → Internet keeps working normally
+
+Router → 1710 VAT (حسب اختيار الـQuiz)
+
+Check Availability result → SMS within 24H
+
+Change Location → Not Free
+
+Change Phone Number from 111 → False
+
+Check Availability channels → All of them
+
+Corporate One Invoice Extra Quota → My WE
+
+Prepaid FV Suspend/Bar → All of them
+
+Change Location after SLA → Follow Up After SLA

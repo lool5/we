@@ -1,0 +1,376 @@
+Question 1
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Balance Fraction is created for Active accounts only  ? 
+
+نقدر نضيف تسويه المبلغ في حاله ان الخط يكون شغال بس ؟
+
+
+
+Question 1Answer
+
+a.
+TRUE
+
+
+b.
+FALSE
+
+Feedback
+The correct answer is:
+TRUE
+
+Question 2
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+If the customer makes early renewal he will lose any Quota (if any) or remaining days in his package
+
+لو العميل عمل تجديد مبكر هيخسر الجيجات (لو لسا موجوده) و الايام المتبقيه في الباقه ..
+
+
+Question 2Answer
+
+a.
+TRUE
+
+
+b.
+FALSE
+
+Feedback
+The correct answer is:
+TRUE
+
+Question 3
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+we can check eligibility for FTTH migration from
+
+ نقدر نعرف امكانيه تحويل الخط  FTTHعن طريق
+
+
+
+Question 3Answer
+
+a.
+Matrix
+
+b.
+BSS
+
+c.
+OM
+Feedback
+The correct answer is: BSS
+Question 4
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Migration to FTTH will be free
+
+تغير الخط للFTTH بيكون مجانا 
+
+
+Question 4Answer
+
+a.
+True
+
+
+b.
+False 
+
+Feedback
+The correct answer is:
+True
+
+Question 5
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+No Need to make verification with CST if calling from another land line number and need to make Early renewal to him 
+
+مش محتاجين نعمل مراجعه بيانات مع العميل فى حالة انه بيتصل من رقم ارضي مختلف وعايز يعمل تجديد المبكر
+
+
+
+
+Question 5Answer
+
+a.
+FALSE
+
+
+b.
+TRUE
+
+Feedback
+The correct answer is:
+FALSE
+
+Question 6
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Cst can get electronic bill via mail or branch
+
+العميل يقدر يحصل علي فاتوره الكترونيه عن طريق الميل او الفرع
+
+Question 6Answer
+
+a.
+True
+
+
+b.
+False
+
+Feedback
+The correct answer is:
+True
+
+Question 7
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+cst can cancel fbb service now from my we application 
+
+  العميل يقدر يكنسل خدمه الانترنت من خلال تطبيق we app
+
+Question 7Answer
+
+a.
+true
+
+
+b.
+false
+
+Feedback
+The correct answer is:
+false
+
+Question 8
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+in case CST called us on 18/4 at 23:20 and need salfny service it will available
+
+العميل كلمنا 4\18 الساعه 23:20 و عايز خدمه سلفني .. الخدمه هتكون متاحه 
+
+
+Question 8Answer
+
+a.
+19 & 20 
+
+
+b.
+only 20 
+
+
+c.
+18 & 19 
+
+Feedback
+The correct answer is:
+18 & 19 
+
+Question 9
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Customer can request Cancellation Through
+
+العميل يقدر يقدم على الإلغاء عن طريق
+
+
+
+Question 9Answer
+
+a.
+Exchanges, Flagships and Franchise
+
+
+b.
+Exchanges Only
+
+
+c.
+111
+
+Feedback
+The correct answer is:
+Exchanges, Flagships and Franchise
+
+Question 10
+Complete
+Mark 0.00 out of 1.00
+Flag question
+Question text
+In FTTH migration order in case of delay in this activity   
+
+في حالة التحويل لftth  وحصل تأخير في هذه المرحلة ما هو الاجراء المناسب
+
+
+Question 10Answer
+
+a.
+create TT to Activation team and inform CST with SLA: 24 H
+
+
+b.
+Create SR and renew SLA 
+
+
+c.
+Create IR to   FO-Fiber installation
+
+Feedback
+The correct answer is:
+create TT to Activation team and inform CST with SLA: 24 H
+
+Question 11
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+NO Required papers for cancellation from branches  
+
+لا يوجد أوراق مطلوبة في حالة الإلغاء عن طريق الفرع
+
+
+Question 11Answer
+
+a.
+True
+
+
+b.
+False
+
+Feedback
+The correct answer is:
+False
+
+Question 12
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+We can add balance fraction to CST in case CST need  
+
+نقدر نضيف  balance fraction للعميل في حاله العميل محتاج ...   
+
+
+Question 12Answer
+
+a.
+Automatic Renewal  
+
+
+b.
+Early Renewal and Extra Quota
+
+
+c.
+Change Speed 
+
+
+d.
+All of the above 
+
+Feedback
+The correct answer is:
+All of the above 
+
+Question 13
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+  CST from Cairo and has fbb ftth migration order in home visit sla is
+
+عميل لديه اوردر تحويل لقايبر ومن القاهره وفي مرحله home visit مده زمنيه 
+
+Question 13Answer
+
+a.
+1 day
+
+
+b.
+3 days
+
+
+c.
+2 days
+
+Feedback
+The correct answer is:
+2 days
+
+Question 14
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+SLA for Migration Cycle to FTTH In Cairo, Giza And Alex
+
+المده المتوقعة لتحويل الخط ل FTTHالقاهره والجيزة وإسكندرية
+
+
+
+Question 14Answer
+
+a.
+7 D
+
+
+b.
+5 D
+
+
+c.
+3 D
+Feedback
+The correct answer is:
+7 D
+
+Question 15
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Based on the screenshot, what does it mean when the cancellation number shows as 0?
+ماذا يعني ظهور رقم الالغاء 0 كما هو موضح
+
+
+Question 15Answer
+
+a.
+The customer has Router Rent fees and is being directed to the branch
+
+
+b.
+The cancellation has been completed
+
+
+c.
+There are no fees
+
+Feedback
+The correct answer is:
+The customer has Router Rent fees and is being directed to the branch

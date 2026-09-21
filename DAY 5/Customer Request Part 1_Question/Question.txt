@@ -1,0 +1,332 @@
+Question 1
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+In case CST called us to add Salfny service and when we open his account we found this MSG, CCA action is
+
+العميل اتصل بينا وعايز يضيف خدمه سلفني و فتحنا خط العميل ظهرت معانا الرساله دي .. اجراء الايجينت هيكون ؟
+
+
+Question 1Answer
+
+a.
+Direct CST to CSO 
+
+
+b.
+Add it normally 
+
+
+c.
+inform CST it is not available
+
+Feedback
+The correct answer is:
+inform CST it is not available
+
+Question 2
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+CCA can check Daily usage from
+
+نقدر نتابع الاستهلاك اليومي للعميل عن طريق
+
+
+Question 2Answer
+
+A.
+ BSS
+
+
+
+B.
+OM
+
+
+
+C.
+Matrix
+
+
+Feedback
+The correct answer is:
+ BSS
+
+Question 3
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Recurring Recharge extra quota valid for  
+
+الباقه الاضافيه المتكرره متاحه لـ ...
+
+
+Question 3Answer
+
+a.
+ADSL , VDSL , FTTH
+
+
+b.
+ADSL , VDSL
+
+
+c.
+VDSL , FTTH
+
+Feedback
+The correct answer is:
+ADSL , VDSL , FTTH
+
+Question 4
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Account status should be active if CST need to change mobile number?
+
+يجب ان تكون حالة الخط مفعل في حالة طلب العميل تغير رقم الموبايل
+
+
+Question 4Answer
+True
+False
+Feedback
+The correct answer is 'True'.
+Question 5
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Change phone number order in this activity (wo problem) CCA right action
+
+
+
+Question 5Answer
+
+A.
+Create TT
+
+
+B.
+Direct customer to CSO
+
+
+C.
+Same Process for Installation follow Up
+
+Feedback
+The correct answer is: Same Process for Installation follow Up
+Question 6
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+SLA of change ownership 
+
+مده نقل التنازل او نقل الملكية؟
+
+Question 6Answer
+
+a.
+1 Day
+
+
+b.
+ONSPOT
+
+
+c.
+2 Days
+
+Feedback
+The correct answer is:
+ONSPOT
+
+Question 7
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+CST can Change Ownership from
+
+العميل يقدر ينقل ملكية الخط الأرضي عن طريق
+
+
+Question 7Answer
+
+A.
+111
+
+
+
+B.
+Branch
+
+
+
+C.
+We APP
+
+
+Feedback
+The correct answer is:
+Branch
+
+Question 8
+Complete
+Mark 0.00 out of 1.00
+Flag question
+Question text
+If CST has a change phone number order, the SLA will be...
+
+Question 8Answer
+
+A.
+2 D
+
+
+B.
+5 D
+
+
+C.
+1 D
+
+Feedback
+The correct answer is: 5 D
+Question 9
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+This customer Can change speed On Spot from 111?
+
+هذا النوع من العملاء يستطيع تغير الباقة من خلال 111 خلال المكالمة فورا
+
+
+Question 9Answer
+True
+False
+Feedback
+The correct answer is 'False'.
+Question 10
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+if CST subscribed on super 20 G and ask to make early renewal from 111 will be available ?    
+
+العميل متعاقد  على سوبر 20 جيجا و عايز يعمل تجديد مبكر من خلال 111 هتكون متاحه ؟
+
+Question 10Answer
+
+a.
+FALSE
+
+
+b.
+TRUE
+
+Feedback
+The correct answer is:
+FALSE
+
+Question 11
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+No need to verify with CST if he needs to change mobile number?
+
+لا يجب مراجعة اى بيانات مع العميل عند طلب تغير رقم الموبايل
+Question 11Answer
+True
+False
+Feedback
+The correct answer is 'False'.
+Question 12
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Corporate customers are eligible to subscribe to Giga Tank
+
+Question 12Answer
+
+A.
+False
+
+
+B.
+True
+
+Feedback
+The correct answer is:
+True
+
+Question 13
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+if CST need to make change package with Higher amount not Required Change Port after due date Via 111CCA should inform cst to Recharge and call us through 1 H or Less
+
+Question 13Answer
+True
+False
+Feedback
+The correct answer is 'True'.
+Question 14
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+CST can subscribe to two Giga Tank plans at the same time
+
+العميل يقدر يشترك على باقتين Giga Tank في وقت واحد
+
+
+Question 14Answer
+
+a.
+FALSE
+
+
+b.
+TRUE
+
+Feedback
+The correct answer is:
+TRUE
+
+Question 15
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Salfny service valid for 
+
+خدمه سلفني مدتها؟
+
+
+Question 15Answer
+
+a.
+3 day
+
+
+b.
+2 day
+
+
+c.
+1 day
+
+Feedback
+The correct answer is:
+2 day

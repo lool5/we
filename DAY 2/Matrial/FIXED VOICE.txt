@@ -1,0 +1,963 @@
+🟦 DAY 2 — FIXED VOICE
+1️⃣ Fixed Voice Installation — SLA Installation Cycle
+أول حاجة: مدة تركيب الخط
+
+بعد ما العميل يعمل Availability Check والنتيجة Available ويروح الفرع ويكمل التعاقد:
+
+TDM / MSAN → 5 Days
+FTTH → 7 Days في Cairo / Giza / Alexandria
+FTTH → 10 Days في باقي المحافظات.
+مراحل تركيب الـFixed Voice
+
+احفظ ترتيب الـActivities:
+
+1. MSAN Network Activation
+Automatic
+→ Network Activation Configuration
+
+2. FV MSAN Installation Visit
+Manual
+→ Installation Visit / Dispatch / Installation Visit Problem
+
+3. Welcome Call TT
+Manual
+→ مكالمة للتأكد من تركيب الخط
+
+4. IM Update
+Automatic
+→ بعد انتهاء Installation Visit، الـOM يرسل بيانات الـOrder إلى IM.
+
+5. Allow CPE Assignment
+Automatic
+→ OM يستدعي CRM لعمل CPE Assignment.
+
+6. Call Back to CRM
+Automatic
+→ عندما يكون الـOrder Installed / Closed / Cancelled.
+
+⭐ سؤال ممكن ييجي:
+
+لو الـOrder وصل Call Back to CRM، نتابع بـ:
+Fixed Voice SR Follow Up → Installation → Call back to CRM
+
+ولو وصل Network Activation:
+Network activation within SLA / After SLA
+
+ولو وصل IM Update:
+IM Update within SLA / After SLA
+
+ولو وصل Allow CPE Assignment:
+Allow CPE Assignment Within SLA / After SLA.
+
+2️⃣ Installation Delay
+
+لو الـOrder واقف أكثر من ساعة في أي Automatic Activity، سواء الـActivity:
+
+Executing بدون Error
+أو Executing وفيها Error
+
+لازم نراجع أولًا هل الـError فاتح Automatic TT بالفعل أو الـActivity حالتها Abnormal على OM قبل ما نعمل TT جديدة.
+
+Activation Team working hours:
+9 AM → 5 PM، كل الأيام حسب المادة.
+
+Installation Visit
+
+لو العميل بيتابع أثناء Installation Visit:
+
+Within SLA
+Violated SLA
+
+ولو فيه Delay Ticket قديمة لنفس الـActivity، نراجع الـComments ونبني المتابعة عليها بدل إنشاء واحدة عشوائية جديدة.
+
+3️⃣ Important Installation Errors
+Error:
+
+Not Found Line information With Phone Number
+
+→ يتم التصعيد إلى SD
+
+والـSLA:
+
+Fixed Voice Complaint → FV MSAN - Installation → SD-Delay = 4 Hours.
+
+Abnormal Order
+
+لو Order حالته Abnormal:
+
+القاعدة العامة: نعمل Re-dispatch Work Order ونشوف هل الـOrder رجع:
+
+Executing
+Complete
+
+لو اتحلت المشكلة نكمل بشكل طبيعي.
+
+لو لم تُحل المشكلة، ممكن ندخل على Individual Case.
+
+في الـIndividual Case:
+
+العميل يتم إبلاغه أنه سيستقبل مكالمة من القسم المختص خلال ساعتين، ولو Team BO عمل IT to Escalation فالـSLA تصبح 72 Hours من بداية فتح الـTT.
+
+4️⃣ أشهر Abnormal Cases
+No Free Active Port
+
+لو ظهر:
+
+Port Active Free No / No Free Active Port
+
+في New FV Installation Order:
+
+العميل يتم إبلاغه بالـSLA الموجودة في الـProcess.
+لا يتم عمل STA في الحالة المذكورة للمادة.
+يوجد Automatic TT ويتم إغلاقها تلقائيًا عندما تُحل المشكلة.
+
+SR:
+
+Fixed Voice SR Follow Up → Installation → Reserve activation no EST SLA.
+
+Outage / Tool Down
+
+لو الـError هو Outage Tool Down:
+
+نتابع الـInstallation SLA طبيعي، ولو حصل Delay نمشي على إجراءات Delay TTs.
+
+أما Port Active Free No فله Handling مختلف كما فوق.
+
+5️⃣ Unreachable
+
+لو العميل Unreachable أثناء التركيب:
+
+يوجد تواصل مع العميل خلال 24 Hours.
+لا يتم إغلاق TT بالكود 36 إلا في حالة طلب العميل إلغاء الخدمة، مع استثناء Address Need Modification حسب المادة.
+لو تم الاتصال بالعميل وتعديل العنوان بحيث يمكن ترتيب الزيارة مرة أخرى → يتم استخدام Close Code 37 في FCC ثم Archive للـTT.
+6️⃣ Need Address Modification
+
+لو العنوان غلط أو غير واضح:
+
+نأخذ العنوان كامل من العميل ونراجعه باستخدام Availability Check.
+
+لو العنوان مختلف / خطأ:
+
+Close Code 36
+وتوجيه العميل للفرع بالأوراق المطلوبة لتعديل العنوان وعمل Availability Check جديد.
+
+لو العنوان مطابق والرقم متاح:
+
+يتم التأكد من أن الرقم موجود في نفس المبنى.
+
+لو أكد العميل أن الرقم موجود:
+Close Code 39
+
+لو الرقم غير موجود:
+Close Code 36 + التوجيه للفرع.
+
+7️⃣ Cancellation & Refund أثناء التركيب
+
+لو العميل عايز يلغي العقد ويسترد المبلغ أثناء فترة التركيب:
+
+لازم يكون الطلب قبل PONR:
+
+ADSL → IM Update
+FTTH → Network Activation
+
+بعدها:
+
+→ توجه العميل للفرع بالأوراق
+→ موظف الفرع ينشئ الـTT
+→ SLA = 2 Working Days
+→ في التأخير يتم تجديد الـSLA.
+
+8️⃣ FV Installation Acceleration
+
+الحالات المهمة للـAcceleration:
+
+العميل يريد إلغاء الخدمة بسبب تأخير Installation SLA.
+العميل اتصل أكثر من 3 مرات والـFV Installation Order ما زال Within SLA.
+العميل قال إنه سيصعد للـTop Management بسبب Installation SLA.
+العميل سيشتكي عبر Social Media.
+العميل سيشتكي إلى NTRA.
+وجود Open ADF TT بكود 189.
+شروط مهمة:
+الخط ليس Hayah Karima.
+ليس متأثرًا بـ Major Fault Outage.
+Record واحد فقط على IR في الحالة المسموحة حسب القاعدة.
+🟩 9️⃣ FV Requests
+
+الجزء الثاني من Day 2 كان Change Line Category / Cancellation / Secret-Public Number / Barring / Suspension.
+
+10️⃣ Change Line Category
+Consumer → Commercial
+
+لو العميل عايز يحول الخط من منزلي إلى تجاري:
+
+→ نوجهه للـBranch / CSO
+→ الأوراق المطلوبة من Wiki
+→ تسوية الرسوم حسب حالة الخط.
+
+لو مكان الخط بقى تجاري فعلًا يتم عمل إجراءات تغيير الفئة.
+
+ومن الـSR:
+
+Fixed Voice SR Inquiry → General Information → Change Line Type.
+
+نقطة مهمة جدًا:
+
+لو العميل غير النشاط من Commercial إلى Consumer:
+
+يتم توجيهه للـCSO/السنترال، مع المستندات المطلوبة، ويتم فحص الاستخدام الفعلي للمكان.
+
+11️⃣ Cancellation — Voice Only
+
+لو العميل عايز يلغي الـFV:
+
+أولًا:
+
+نسأل عن سبب الإلغاء ونحاول نحل المشكلة قدر الإمكان.
+
+لو مصر على الإلغاء:
+
+يتوجه للفرع.
+نبلغه بالأوراق المطلوبة من Wiki.
+يدفع المستحقات المالية.
+Cancellation SLA = 24 Working Hours
+لازم نسجل سبب الإلغاء في Content Service والـSR.
+حالة مهمة جدًا:
+
+لو العميل FV Only لكنه عنده Internet مع شركة أخرى:
+
+لازم يلغي Internet عند الشركة الأخرى أولًا، وبعدها نقدر نقدم له FV Cancellation.
+
+12️⃣ Secret / Public Number
+
+في الخطوط التجارية توجد خدمات:
+
+Enterprise Public Phone Number
+Enterprise Secret Phone Number
+
+المعلومة المهمة:
+
+عند التعاقد التجاري، يكون الرقم وفق اختيار الخدمة، والتغيير يتم حسب الإجراءات المحددة والـdocuments المطلوبة.
+
+13️⃣ Receiving Only
+
+الخدمة تحول الخط إلى استقبال فقط.
+
+يعني:
+
+✅ يستقبل مكالمات
+❌ لا يستطيع إجراء مكالمات.
+
+السعر:
+
+10 LE/month before tax للمنزلي والتجاري حسب المادة.
+
+Activation:
+
+On Spot
+
+Channels:
+Customer Service
+Branch
+حسب القناة والإجراءات الموضحة.
+
+والـVerification مطلوب عند الاشتراك من Customer Service.
+
+Service Fault SLA:
+
+Residential: 48 Hours، بدون Friday/Saturday
+Commercial: 24 Hours، بدون Friday/Saturday.
+
+14️⃣ Suspension
+
+تعليق الخط بناءً على طلب العميل:
+
+الأسعار:
+
+Residential = 30 LE/month before tax
+
+Commercial = 20 LE/month before tax
+
+Important:
+العميل لازم يسدد أي مستحقات سابقة.
+Postpaid → Branch only
+Prepaid → Branch / Customer Service / WE App / E-Care
+Verification مطلوب عند الاشتراك عن طريق Customer Service.
+الخدمة On Spot.
+غير متاحة للخط الحكومي.
+Resume:
+
+لو العميل عايز يرجع الخدمة:
+
+→ Verification
+→ Resume
+→ Unbar.
+
+🟨 15️⃣ FV Services
+
+وده جزء كبير جدًا من Day 2.
+
+Call Waiting
+
+الخدمة تسمح باستقبال مكالمة جديدة أثناء وجود مكالمة حالية.
+
+العميل يسمع Ring ويقدر ينتقل بين المكالمتين.
+
+السعر:
+Business 90: Free
+باقي الباقات: 5 LE/month before tax
+Activation:
+
+Spot On
+
+Channels:
+Customer Service
+Branch
+WE App
+E-Care
+
+والـVerification مطلوب من Customer Service.
+
+16️⃣ Call Barring
+
+هدفها منع أنواع معينة من المكالمات.
+
+حسب المادة يوجد:
+
+Local Barring
+Direct Barring
+International Barring
+السعر:
+
+5 LE/month before tax
+
+Activation:
+
+Spot On
+
+وقبل تسجيل Fault لازم نراجع:
+
+نوع تجميع الخط: Fast / Slow.
+استخدام الأكواد صحيح.
+يسمع رسالة "من فضلك ضع السماعة" أو intermittent dial tone.
+لم يدخل الكود خطأ 3 مرات.
+ليس Receiving Only.
+لو International Barring مغلق → لا يستطيع الاتصال بـ120.
+لو Local Barring مغلق → لا يستطيع الاتصال ببعض خدمات الصوت والإنترنت.
+
+ولو نسي الـinitial password أو دخل الأكواد خطأ 3 مرات، يتوجه صاحب الخط أو وكيله بتوكيل رسمي للـInformation Center لإعادة Coding.
+
+17️⃣ ABB Numbers — اختصار الأرقام
+
+تسمح بتخزين أرقام كثيرة للاتصال السريع.
+
+السعة قد تصل إلى 99 رقم حسب نوع الـExchange.
+
+السعر:
+
+2 LE/month before tax
+
+نقطة امتحان:
+
+في بعض CDMA lines في Alexandria الخدمة ليست متاحة على كل الخطوط، ويجب التأكد من إمكانية تشغيلها.
+
+18️⃣ Follow Me
+
+تحويل المكالمات لرقم آخر.
+
+يوجد 3 أنواع:
+
+تحويل مباشر.
+عند انشغال الخط.
+عند عدم الرد.
+السعر:
+
+2 LE/month before tax
+
+Activation:
+
+Spot On
+
+شروط مهمة:
+
+لو التحويل إلى:
+
+محافظة أخرى / Mobile → يجب توفر Automatic Calling service.
+دولة أخرى → يجب توفر International service.
+
+ولو الخط عليه Don’t Disturb في الرقم المحول إليه قد يؤثر على المتابعة.
+
+19️⃣ Hot Line
+
+يجعل الخط يتصل تلقائيًا برقم معين بمجرد رفع السماعة.
+
+نوعان:
+
+Programmed Hot Line
+
+يتصل بعد 5 seconds.
+
+Direct Hot Line
+
+يتصل بمجرد رفع السماعة.
+
+السعر:
+
+2 LE/month before tax
+
+Activation:
+
+Spot On
+
+ويحتاج Verification عند الاشتراك من Customer Service.
+
+20️⃣ Conference Call
+
+يسمح بعمل مكالمة بين 3 أشخاص.
+
+السعر:
+
+5 LE/month before tax للخط المنزلي حسب المادة.
+
+Activation:
+
+Spot On
+
+ملاحظة مهمة:
+
+لا يمكن تشغيل International من خلال 111 لعميل عنده Follow Me أو Conference أو باقة تشملهم؛ في الحالة المذكورة يتم التوجه لقسم المبيعات بالسنترال للفحص والموافقة.
+
+21️⃣ Favorite Number
+
+حسب المادة:
+
+350 Units
+
+لـ2 Favorite Numbers
+
+داخل WE = 1 Unit/minute
+خارج WE = 5 Units/minute
+السعر:
+
+10 LE/month before tax
+
+Activation:
+
+Spot On
+
+والـVerification مطلوب عند الاشتراك من Customer Service.
+
+22️⃣ 0900 Service
+
+الخدمة تسمح بالاتصال بأرقام تبدأ بـ0900.
+
+لا يوجد اشتراك شهري:
+
+العميل يدفع فقط تكلفة المكالمات.
+
+السعر حسب الرقم، والمادة تذكر نطاقًا من 50 قرش إلى 5 جنيه للدقيقة.
+
+الخدمة موجودة افتراضيًا من بداية تشغيل الخط ويتم إلغاؤها فقط بناءً على طلب العميل.
+
+مهم:
+
+وجود الـAdd-on الخاص بالـdisable يعني أن العميل لا يستطيع استخدام الخدمة.
+
+23️⃣ International
+
+تسمح للعميل بإجراء مكالمات دولية.
+
+أرقام مهمة:
+
+120 = International Trunk — Free
+
+144 = International Directory — Free
+
+عند الاتصال الدولي:
+
+00 + Country Code
+
+مثال:
+
+00964
+
+ولا نعطي العميل City Code إلا عند الحاجة حسب الـprocess، ويتم توجيهه للدليل الدولي 144.
+
+Fault verification:
+
+قبل الـTT نراجع:
+
+Fast / Slow dialing.
+Codes.
+Intermittent dial tone.
+الكود لم يدخل 3 مرات خطأ.
+Receiving Only.
+Call Barring.
+الـ0 في الـhandset.
+Country Code صحيح.
+24️⃣ World One International
+
+حسب المادة:
+
+للـAreas 1, 2, 3
+
+السعر:
+
+8 LE/min + 1.5 LE Call Opening Fee
+
+بدل السعر الأساسي المذكور في المادة 10 LE/min.
+
+لا يوجد monthly subscription fee.
+
+ولو العميل غير مشترك International أولًا، يجب تفعيل International ثم الاشتراك في World One.
+
+25️⃣ Mobile Service
+
+الخدمة تسمح للخط الأرضي بالاتصال بـ:
+
+✅ WE Mobile فقط
+
+ولا يستطيع الاتصال بشبكات المحمول الأخرى عند تفعيل الـrestriction المقصود.
+
+الـSRs فيها:
+
+Mobile WE
+Cancel Mobile WE
+Other Mobile
+Enable Other Mobile
+Cancel Other Mobile.
+26️⃣ Caller ID
+
+تسمح للعميل بمعرفة رقم المتصل.
+
+للخط المنزلي:
+
+Free
+
+والكود المذكور في المادة:
+
+107
+
+وتفعيل الخدمة Spot On.
+
+ملحوظة: خدمة عدم إظهار رقم الطالب تحتاج موافقة وزير الاتصالات حسب المادة.
+
+27️⃣ WE My / E-Care / Shop-E
+
+العميل المنزلي يستطيع إدارة حساب الـFixed Voice من:
+
+WE My App + E-Care
+
+ومن WE My يمكن التفريق بين:
+
+Data account
+Fixed Voice account
+
+من رمز الـhandset الموجود بجوار رقم الخط الأرضي.
+
+ويمكن استخدام Shop-E من WE My / E-Care لشراء أجهزة TE المتاحة مثل الأجهزة والإكسسوارات وغيرها.
+
+28️⃣ Resume 24 + Salfny
+
+لو تم تفعيل:
+
+Resume 24
+
+للخط الأرضي، فالـInternet يمكن أن يعود تلقائيًا إذا كان سبب الـSuspension هو Fixed Voice Bills.
+
+المادة القديمة في Day 2 تذكر:
+
+Salfny:
+
+40 Units
+
+30 Days
+
+1 Unit = 1 minute لخدمات WE
+5 Units = دقيقة للشبكات الأخرى
+
+وسعر الخدمة:
+
+2 LE before tax / 2.16 LE including tax.
+
+ويجب عمل Verification قبل Resume 24 أو Salfny.
+
+⚠️ دي Salfny القديمة الخاصة بالمادة دي؛ ما نخلطهاش مع WE Home Salfny اللي ظهرت في أيام لاحقة وكان لها أرقام مختلفة.
+
+29️⃣ Silver Bundle
+
+خصم:
+
+20%
+
+على المكالمات الصادرة إلى رقمين Mobile محددين.
+
+السعر:
+
+5 LE before tax
+
+6.156 LE including tax
+
+مهم:
+
+لازم الخدمات التالية تكون غير مفعلة:
+
+Disable WE Mobile
+Disable Other Mobile
+
+والعميل يستطيع تغيير الـFavorite Numbers مرتين مجانًا شهريًا.
+
+ولا يمكن الاشتراك في Silver Bundle + Favorite Number في نفس الوقت.
+
+30️⃣ Silver Bundle 2 — Migration Only
+
+خصم 20% على تعريفة المكالمة لرقمين محافظات محددين.
+
+السعر:
+
+2 LE before tax
+
+2.28 LE including tax
+
+والـMigration Only معناها أن الخدمة ليست متاحة للاشتراك الجديد عمومًا؛ هي للعملاء الذين كانوا مشتركين بها قبل Migration.
+
+31️⃣ Golden Bundle
+
+يوجد خصم:
+
+15% على 3 أرقام محلية محددة.
+20% على مكالمة دولية لرقم دولي محدد.
+
+السعر المذكور:
+
+8 LE before tax
+
+9.12 LE including tax
+
+ويجب تفعيل International قبل الاشتراك.
+
+العميل يستطيع تغيير الـFavorite Numbers 4 مرات مجانًا شهريًا.
+
+والـGolden Bundle كذلك مذكورة Migration Only.
+
+32️⃣ International Add-on Premium
+
+للمناطق 1, 2, 3:
+
+4.99 LE/min + 1.5 LE Call Opening Fee
+
+ولا يوجد Subscription Fee.
+
+يجب تفعيل International.
+
+ولا يمكن الجمع بين:
+
+International Premium + Golden Bundle
+
+في نفس الوقت، حسب المادة.
+
+33️⃣ Don’t Disturb
+
+تمنع استقبال المكالمات الواردة أثناء فترة الراحة.
+
+السعر:
+
+5 LE/month before tax
+
+والاشتراك من:
+
+Branch
+Customer Service
+WE App
+E-Care.
+🟥 34️⃣ Shared Articles — System Action Process
+
+دي من أهم أجزاء Day 2 في أسئلة الـTrial.
+
+لو العميل بيتصل بشأن Individual Case:
+
+ننشئ الـComplaint/TT المناسب، ونقول له إنه سيستقبل مكالمة من القسم المختص خلال:
+
+2 Hours
+
+ولو حصل IT to Escalation من Team BO:
+
+72 Hours من وقت إنشاء الـTT.
+
+والـSecondary Mobile لازم يتسجل للمتابعة.
+
+Outbound Calls:
+
+عادة:
+
+8 AM → 10 PM
+
+مع استثناء SLS وDetractor المذكورين في المادة حتى 11 PM.
+
+35️⃣ Individual Cases — أهم TTs
+
+من المادة:
+
+Abnormal Cases for any Individual Case → 72 H
+Processing / No BSS Profile → 72 H
+No Cancellation Order → 72 H
+Suspension Life Cycle / Arrears → 72 H
+Suspended Offer → 72 H
+No Free Resource → 72 H
+WE App Problem → 72 H
+Promotion Individual Cases → 72 H.
+36️⃣ SLA Calculation
+
+الـSLA يتم حسابها من:
+
+TT / Order Creation on OM or BSS
+
+وفي الـTT:
+
+لو الـSLA مقسمة على Work Groups، العميل يتم إبلاغه بالـSLA الخاصة بالـWork Group الذي توجد عنده الحالة حاليًا.
+
+ومع كل تجديد SLA نعمل:
+
+Add Midway
+
+لكن لا نعمل Midway لمجرد متابعة عادية داخل نفس الـSLA.
+
+37️⃣ Customer Request — Call Back
+
+الـCall Back يُسمح به عندما يكون السبب Business Reason فقط، مثل:
+
+بيانات ناقصة.
+الدفع غير ظاهر والعميل يحتاج مراجعة بيانات.
+يريد التأكد من تفعيل/عدم تفعيل خدمة.
+يريد عمل Action لكن لم يكمل البيانات.
+
+ويتم تحديد الوقت مع العميل في حدود ساعتين، والـCall Back يكون لنفس الـAgent خلال الـShift.
+
+لا نستخدم هذا الـCall Back لأسباب عادية مثل العميل مش عايز يكمل المكالمة أو الرصيد هيخلص.
+
+38️⃣ Silent / Dropped Calls
+Dropped Call
+
+لو المكالمة فصلت:
+
+Reached
+Not Reached
+No Follow Up due to SLA
+Silent Call:
+Silent Call Reached
+Silent Call Not Reached
+
+والـCCA لازم يكون عارف رقم الخدمة والاستفسار على الأقل حسب السيناريو.
+
+39️⃣ Out of Shift
+
+لو وقت الـCall Back أصبح خارج الـShift:
+
+→ CCA ينشئ Follow-up Call في I-Report
+→ يكتب Mobile Number في الـComment
+→ TL يوزعها على Agent آخر لإنشاء الـSR.
+
+SR:
+
+Fixed Voice SR Follow Up → Call Back Customer Request → Out of Shift.
+
+40️⃣ Back Call Trials
+
+لو:
+
+Number Busy / Mobile Not Available
+
+3 Attempts
+
+بين كل Attempt والثاني:
+
+5–10 seconds
+
+Answer No:
+
+2 Attempts
+
+ويجب الانتظار حتى انتهاء الـRinging.
+
+41️⃣ Corrective Action
+
+لو الـCCA أعطى العميل معلومة غلط أو نسي يبلغ العميل بمعلومة مهمة:
+
+يتم عمل Corrective Action Call
+
+ويجب أن تتم خلال:
+
+5 Minutes من نهاية المكالمة
+
+SR:
+
+Fixed Voice SR Complaint → Follow Up → Corrective Action.
+
+42️⃣ Rules مهمة جدًا
+
+قبل ما تسأل العميل عن مشكلته، لازم تشوف الـSystem أولًا.
+
+لو عنده مشكلة خلال آخر شهر وما زالت لم تُحل:
+
+نسأله أولًا:
+
+هل استفساره عن نفس المشكلة؟
+
+ولو بنوجه العميل للفرع لازم نبلغه:
+
+Branch Address + Working Hours.
+
+43️⃣ Maximum Handling Numbers
+
+أقصى عدد أرقام يمكن التعامل معها مع العميل في المكالمة / Chat:
+
+3 Numbers
+
+من الرقم الثاني نبدأ Verification Process.
+
+لو العميل عايز يستفسر عن أكثر من 3 أرقام:
+
+من الرقم الرابع يمكن تحويله إلى IVR.
+
+وفي Outbound/Chat يمكن طلب إنهاء التواصل والاتصال/التواصل مرة أخرى.
+
+44️⃣ Legacy Info
+
+لو العميل عنده OSS Profile ولكن لا يوجد له BSS Profile:
+
+نعمل:
+
+Fixed Voice Request → FV Service Legacy Info
+
+والـSLA:
+
+1 Hour
+
+ونأخذ Alternate Mobile Number.
+
+Follow-up الخاص بـFV يكون:
+
+8 AM → 8 PM
+
+ولو TT اتعملت الساعة 7 PM، المتابعة تكون من اليوم التالي.
+
+45️⃣ Complaints
+أهم Complaint Types
+
+لو العميل اشتكى من:
+
+Bad Attitude
+Wrong Action
+Wrong Info
+Missing Info
+Over Promising
+Bribe
+
+يتم عمل الـComplaint المناسب، والـSLA في الحالات المذكورة:
+
+1 Day.
+
+بالنسبة لشكاوى Customer Service، يجب تسجيل:
+
+Customer Name
+Contact Number
+Call Time
+Agent Name
+
+ولو العميل لا يتذكر اسم الموظف، يتم توضيح ذلك في الـTT.
+
+46️⃣ Data Leakage
+
+لو العميل قال إن بياناته تم تسريبها:
+
+أولًا نوضح له أن هذا السلوك لا يحدث من جانب الشركة.
+
+لو أصر:
+
+→ إنشاء TT
+→ كتابة وصف كامل وواضح للحالة.
+
+47️⃣ Escalation Call
+
+لو العميل غير مقتنع ويريد Manager:
+
+Fixed Voice Complaint → Call Center → Asked to call manager
+
+ويتم إبلاغه أنه سيتلقى اتصالًا خلال:
+
+1 Hour
+
+أما لو عايز يتكلم مع الـTL فورًا:
+
+Escalation On Spot → On Spot.
+
+لو طلب Supervisor أعلى من TL:
+
+Escalation - Complaint Team → Ask to call a supervisor
+
+SLA:
+
+1 Day.
+
+48️⃣ Call Center QA Complaint
+
+لو العميل اشتكى من CCA بسبب:
+
+Bad Attitude
+Wrong Action
+Wrong Info
+Missing Info
+Over Promising
+
+الـFeedback خلال:
+
+24 Hours / 1 Day
+
+ويجب كتابة:
+
+Customer Name + Follow-up Number + Employee Name + Call Time.
+
+49️⃣ Technician / Exchange Manager Complaint
+
+لو الشكوى من Technician أو Exchange Manager بسبب:
+
+Bad Attitude
+Wrong Action
+Wrong Info
+Missing Info
+Over Promising
+Bribe
+
+نكتب:
+
+Customer Name + Follow-up Number + Technician Name + Visit Time
+
+والـSLA:
+
+1 Day.
+
+🔥 أهم أرقام Day 2 للحفظ
+
+احفظ الجدول ده كويس جدًا:
+
+الحاجة	الرقم
+TDM/MSAN Installation	5 Days
+FTTH Cairo/Giza/Alex	7 Days
+FTTH Other GOV	10 Days
+SD Installation Error	4 Hours
+Individual Cases	72 Hours
+IT Escalation Individual Case	72 Hours
+Installation Unreachable Contact	24 Hours
+Cancellation Voice Only	24 Working Hours
+Refund Before Installation	2 WD
+Call Back Manager	1 Hour
+Escalation On Spot	On Spot
+Complaint QA	1 Day
+Technician Complaint	1 Day
+Receiving Only Residential Fault	48 H
+Receiving Only Commercial Fault	24 H
+Corrective Action	5 Minutes
+Maximum numbers per call	3
+Back Call Busy / Mobile unavailable	3 Trials
+Back Call Answer No	2 Trials
+
+أهم حاجة في Day 2 إنك ما تحفظش الأرقام لوحدها؛ اربط كل رقم بالـCase، لأن أسئلة الـTrial كانت بتجيب لك الـCase وتطلب منك الـSLA أو الـAction. وهذه النقاط كلها مأخوذة من ملفات Day 2 نفسها.

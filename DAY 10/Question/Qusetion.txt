@@ -1,0 +1,266 @@
+Question 1
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+IN FTTH,we will cancel the order automatically  for new  ftth  installation In case the problem was "CST Problem" and hasn't been solved within ..
+
+اوردر التركيبات بيتكنسل اوتوماتيك للعملاء الجدد لو المشكلة كانت من عند العميل ومحلهاش خلال قد اي  ftthفي ال
+
+Question 1Answer
+
+A.
+100 days
+
+
+B.
+60 days
+
+
+C.
+30 days
+
+Feedback
+The correct answer is:
+60 days
+
+Question 2
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+IN FTTH,If a CST wants to change their primary offer from data & voice to voice-only service, what should the CCA do?
+
+في FTTH، لو العميل  عايز يغيّر من داتا وفويس لـ خدمة فويس بس، الـ CCA لازم يعمل إيه؟
+
+Question 2Answer
+
+A.
+direct the CST to the branch to proceed with the request
+
+
+B.
+Ask the CST to send an email with a request
+
+
+C.
+Create a technical support ticket
+
+Feedback
+The correct answer is:
+direct the CST to the branch to proceed with the request
+
+Question 3
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+IN FTTH,In case order is abnormal in WO Request  activity the Responsible team is ...
+
+ مين القسم المسئول wo request  في مرجله ال abnormal لو حاله الاوردر كانت FTTHفي ال 
+
+Question 3Answer
+
+A.
+IU
+
+
+B.
+OMU
+
+
+C.
+Retail
+
+Feedback
+The correct answer is:
+OMU
+
+Question 4
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What are the priority fees for FTTH lines in closed compounds?
+
+إيه هي رسوم الأولوية لخطوط FTTH في ال close compounds 
+
+
+Question 4Answer
+
+A.
+Apartment: 3000 EGP (Without tax), Villa: 5000 EGP (Without tax)
+
+
+B.
+Apartment: 5000 EGP (after tax), Villa: 7000 EGP (after tax)
+
+
+C.
+Apartment: 2000 EGP (Without tax), Villa: 4000 EGP (Without tax)
+
+Feedback
+The correct answer is:
+Apartment: 3000 EGP (Without tax), Villa: 5000 EGP (Without tax)
+
+Question 5
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+For compound support, what is the Installation SLA?
+
+بالنسبة لـ Compound Support، مدة تنفيذ التركيب (Installation SLA) كام؟
+
+Question 5Answer
+
+A.
+7 days
+
+
+B.
+3 days
+
+
+C.
+5 days
+
+Feedback
+The correct answer is:
+3 days
+
+Question 6
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+ In FTTH networks, what does the OLT device do?
+
+
+
+في شبكات FTTH، جهاز OLT بيعمل إيه؟
+
+
+Question 6Answer
+
+A.
+No Need to it and internet connection can work without it
+
+
+B.
+connect internet signal between GPON and Splitter and then to BOX 
+
+
+C.
+It connects directly to the CST's device
+
+Feedback
+The correct answer is:
+connect internet signal between GPON and Splitter and then to BOX 
+
+Question 7
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What is the main advantage of FTTH networks compared to traditional copper-based networks?
+
+إيه الميزة الأساسية في شبكات الـ FTTH مقارنة بالشبكات القديمة اللي شغالة بسلوك النحاس؟
+
+
+Question 7Answer
+
+A.
+Lower installation cost
+
+
+B.
+Limited service availability
+
+
+C.
+Higher internet speeds and dedicated bandwidth
+
+Feedback
+The correct answer is:
+Higher internet speeds and dedicated bandwidth
+
+Question 8
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+IN FTTH,SLA For Home Visit dispatch for cairo and Alex and Giza is 2 Days and for other gov 
+
+  للقاهره واسكندرية هي يومين  اما باقي المحافظات Home Visit dispatchالمده الزمنية الخاصه بال 
+
+Question 8Answer
+
+A.
+3 days
+
+
+B.
+5 days
+
+
+C.
+2 days
+
+Feedback
+The correct answer is:
+5 days
+
+Question 9
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+
+
+IN FTTH,What is the rental fee with VAT in EGP for the FTTH ONT Rent?
+
+
+
+في FTTH، إيه قيمة إيجار جهاز الـ ONT شامل الضريبة المضافة (VAT)
+
+
+Question 9Answer
+
+A.
+50 EGP
+
+
+B.
+57 EGP
+
+
+C.
+100 EGP
+
+Feedback
+The correct answer is:
+57 EGP
+
+Question 10
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+ In the FTTH installation process, which team is responsible for assigning a visit to configure the ONT and activate the service?
+
+  وتشغيل الخدمة ONT   مين القسم المسئول  عن عمل كونفجريشن  لجهاز ال ftthفي تركيبات ال 
+
+Question 10Answer
+
+A.
+FO Team
+
+
+B.
+FTTH-Support
+
+Feedback
+The correct answer is:
+FTTH-Support
+

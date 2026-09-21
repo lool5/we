@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WE Training Study Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">WE Training</p>
+      <h1>مركز مذاكرة امتحانات التدريب</h1>
+    </div>
+    <div class="top-actions">
+      <button class="ghost-button" id="themeToggle" type="button">وضع ليلي</button>
+      <div class="stats" id="stats"></div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <aside class="sidebar" aria-label="فلترة الأيام">
+      <div class="search-box">
+        <label for="searchInput">بحث سريع</label>
+        <input id="searchInput" type="search" placeholder="اكتب SLA، BSS، NAT...">
+      </div>
+      <div class="day-list" id="dayList"></div>
+    </aside>
+
+    <section class="workspace">
+      <nav class="tabs" aria-label="أقسام الموقع">
+        <button class="tab is-active" data-view="material">شرح اليوم</button>
+        <button class="tab" data-view="summary">الملخصات</button>
+        <button class="tab" data-view="quiz">تدريب أسئلة</button>
+        <button class="tab" data-view="questions">كل الأسئلة</button>
+        <button class="tab" data-view="images">الصور</button>
+      </nav>
+
+      <section class="view is-active" id="materialView">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Full material</p>
+            <h2>شرح اليوم من ملفات Matrual</h2>
+          </div>
+        </div>
+        <div class="material-list" id="materialList"></div>
+      </section>
+
+      <section class="view" id="summaryView">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Study notes</p>
+            <h2>ملخصات مركزة حسب اليوم</h2>
+          </div>
+          <button class="ghost-button" id="resetProgress">تصفير التقدم</button>
+        </div>
+        <div class="summary-grid" id="summaryGrid"></div>
+      </section>
+
+      <section class="view" id="quizView">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Practice mode</p>
+            <h2>اختبار سريع بتصحيح فوري</h2>
+          </div>
+          <button class="primary-button" id="newQuiz">سؤال جديد</button>
+        </div>
+        <article class="quiz-card" id="quizCard"></article>
+      </section>
+
+      <section class="view" id="questionsView">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Question bank</p>
+            <h2>بنك الأسئلة المستخرج من الملفات</h2>
+          </div>
+        </div>
+        <div class="question-list" id="questionList"></div>
+      </section>
+
+      <section class="view" id="imagesView">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Visual material</p>
+            <h2>صور الأسئلة والزتونة والشيتات</h2>
+          </div>
+          <select id="imageKind" aria-label="نوع الصور">
+            <option value="all">كل الصور</option>
+            <option value="question">صور الأسئلة</option>
+            <option value="summary">الزتونة والشيتات</option>
+          </select>
+        </div>
+        <div class="image-grid" id="imageGrid"></div>
+      </section>
+    </section>
+  </main>
+
+  <dialog id="imageDialog">
+    <button class="close-button" id="closeDialog" aria-label="إغلاق">×</button>
+    <img id="dialogImage" alt="">
+    <p id="dialogCaption"></p>
+  </dialog>
+
+  <script src="study-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

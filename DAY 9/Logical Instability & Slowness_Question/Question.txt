@@ -1,0 +1,398 @@
+Question 1
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+In any logical cases must inform CST leave CPE turn on while escalation Except  if Customer assigned to wrong pool or no profile on NST
+
+لازم في كل ال Logical cases ابلاغ العميل انه يترك الروتر شغال اثناء التصعيد ماعدا wrong pool or no profile on NST
+
+
+
+Question 1Answer
+
+a.
+TRUE
+
+
+b.
+False
+
+Feedback
+The correct answer is:
+TRUE
+
+Question 2
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+If customer was just asking about the existence of utilization problem in the pop, you can answer his/her question only without any troubleshooting.
+
+إذا كان العميل يسأل فقط عن وجود مشكلةالاشغال في السنترال (congested or not congested) ، فيمكنك الإجابة على سؤاله فقط دون عمل أي خطوات
+
+
+Question 2Answer
+
+a.
+FALSE
+
+
+b.
+TRUE
+
+Feedback
+The correct answer is:
+TRUE
+
+Question 3
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Slowness case SLA will be :
+
+مده حل مشكله بطئ الخدمه هتكون
+
+
+Question 3Answer
+
+a.
+2 H
+
+
+b.
+2 H to 5 H
+
+
+c.
+1 D
+
+Feedback
+The correct answer is:
+2 H
+
+Question 4
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Cst complaint: his line unstable and  clear view result was according this pic , CCA Action
+
+ :عميل بيشتكي من عدم استقرار الخط وبعد فحص الخط كانت النتجة كالاتي
+
+
+
+Question 4Answer
+
+a.
+Handle logical instability problem
+
+
+b.
+Handle physical instability problem
+
+
+c.
+Handle Browsing problem
+
+Feedback
+The correct answer is:
+Handle physical instability problem
+
+Question 5
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+In slowness case we shouldn’t informed cst to keep cpe turned on
+
+
+في slowness case  لا يجب اخبار العميل بإبقاء الراوتر قيد التشغيل
+
+
+
+
+Question 5Answer
+
+a.
+TRUE
+
+
+b.
+FALSE
+
+Feedback
+The correct answer is:
+FALSE
+
+Question 6
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+In case cst has slowness issue and  Download result was :
+
+في حاله ان العميل عنده  بطئ ونتيجه التحميل كانت
+
+
+
+Question 6Answer
+
+a.
+FBB Tech Problem > Slowness-Download > CPE Problem
+
+
+b.
+FBB Tech Problem > Slowness Download > Download Accepted
+
+
+c.
+FBB Tech Problem > Slowness > Informed Script & he accepted
+
+Feedback
+The correct answer is:
+FBB Tech Problem > Slowness Download > Download Accepted
+
+Question 7
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+If CST has  more than one device while T.S Slowness Case CCA Action
+
+في حاله ان العميل عنده اكتر من جهاز متصل اثناء متابعه خطوات ال Slowness Case التصرف الصحيح هيكون
+
+
+
+
+Question 7Answer
+
+a.
+Check availability for connecting one device 
+
+
+b.
+change WIFI settings SSID and password 
+
+
+c.
+All of above 
+
+Feedback
+The correct answer is:
+All of above 
+
+Question 8
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+CST has ticket logical instability with  update according this pic so. CCA right action be
+
+العميل عنده مشكله logical instability نازل عليها   update  اللي موجود في الصورة ايه الاجراء المناسب
+
+
+Question 8Answer
+
+a.
+ should check (Customer 360)  if found outage deliver the outage SLA to the customer if not refer to your team leader to check if there is an outage or not.
+
+
+b.
+Let customer check with another CPE
+
+
+c.
+Re-escalate the ticket
+
+Feedback
+The correct answer is:
+ should check (Customer 360)  if found outage deliver the outage SLA to the customer if not refer to your team leader to check if there is an outage or not.
+
+Question 9
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+While escalate logical instability Case on 10.00 AM CCA shouldn't check on call before escalation 
+
+في حال تصعيد شكوه logical instability الساعه 10 صباحا لا يجب علينا ان نسال العميل يتم الاتصال بيك ولا لا قبل مانصعد الشكوى
+
+
+Question 9Answer
+
+a.
+TRUE 
+
+
+b.
+FALSE
+
+Feedback
+The correct answer is:
+TRUE 
+
+Question 10
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+In case CST has slowness case after making reset and configuration the download rate still not accepted what is the next action:
+
+في حاله ان العميل عنده بطئ ف الخدمه وبعد عمل reset&configuration سرعه التحميل لسه غير مقبوله ما هي  الخطوه التاليه :
+
+
+
+
+Question 10Answer
+
+a.
+Check With another Cpe
+
+
+b.
+Ask the CST to Check with another OS/PC
+
+
+c.
+Ping Cpe Ip
+
+Feedback
+The correct answer is:
+Ask the CST to Check with another OS/PC
+
+Question 11
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+OTS SLA is  …
+
+الوقت المحدد لحل مشكله ال OTS
+
+
+
+
+Question 11Answer
+
+a.
+5WD
+
+
+b.
+2 WD
+
+
+c.
+3WD
+
+Feedback
+The correct answer is:
+5WD
+
+Question 12
+Complete
+Mark 0.00 out of 1.00
+Flag question
+Question text
+it’s mandatory to follow logical verification before handle logical instability
+
+logical verification من الحاجات الأساسية  لازم اعمل عليه فحص علي السيستم قبل ما نتابع خطوات logical instability
+
+
+Question 12Answer
+
+a.
+False
+
+
+b.
+True
+
+Feedback
+The correct answer is:
+True
+
+Question 13
+Complete
+Mark 0.00 out of 1.00
+Flag question
+Question text
+CST was using wireless and has download Issue CCA Action :
+
+
+العميل بيستخدم ال wireless  وعنده مشكله ف التحميل التصرف الصحيح هيكون
+
+
+
+
+
+Question 13Answer
+
+a.
+Check download Rate using Wireless normally
+
+
+b.
+Ping cpe
+
+
+c.
+Inform cst to connect cable cannot handle this case using Wireless
+
+Feedback
+The correct answer is:
+Check download Rate using Wireless normally
+
+Question 14
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Slowness Case Escalated To :
+
+Slowness Case بيتم تصعيدها لقسم ؟
+
+
+
+
+Question 14Answer
+
+a.
+SLS
+
+
+b.
+IU
+
+
+c.
+NOC
+
+Feedback
+The correct answer is:
+NOC
+
+Question 15
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+In logical instability case the ADSL led is stable in the CPE all the time
+
+في مشكله logical instability لمبة ADSL  بتبقي مستقرة ف الراوتر طول الوقت
+
+
+Question 15Answer
+
+a.
+TRUE 
+
+
+b.
+FALSE
+
+Feedback
+The correct answer is:
+TRUE 

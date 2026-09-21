@@ -1,0 +1,385 @@
+Question 1
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which type of CPE configuration  ?
+
+ايه نوع الرواتر من خلال ال Configuration ده ؟
+
+
+
+
+
+Question 1Answer
+
+A.
+ADSL CPE
+
+
+
+B.
+VDSL CPE
+
+Feedback
+The correct answer is:
+ADSL CPE
+
+Question 2
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+​​​​In case wireless problem is solved without troubleshooting and there is no other technical issue effects on customer's line according to his input/system so right SR
+
+في حاله ان مشكله ال wireless اتحلت بدون أي خطوات والعميل معندوش مشكله  technical  مأثره علي الخط بتاعه ال sr  الصح هتكون
+
+
+
+
+Question 2Answer
+
+a.
+FBB Tech Problem>Wireless>Solved without T.S
+
+
+b.
+FBB Tech Problem>Wireless>CST refused troubleshooting 
+
+
+c.
+FBB Tech Problem>Wireless>CST can't troubleshoot 
+
+Feedback
+The correct answer is:
+FBB Tech Problem>Wireless>Solved without T.S
+
+Question 3
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which of the below consider as private IP :
+
+ايه ال ip الى يعتبر private ip ؟
+
+
+Question 3Answer
+
+A.
+190.168.1.10
+
+
+
+B.
+168.190.1.2
+
+
+
+C.
+192.168.1.2
+
+
+Feedback
+The correct answer is: 192.168.1.2
+Question 4
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which protocol in this picture  ……. Transfer Private IP to Public IP or Versus 
+
+ايه هو ال Protocol  الى في الصوره والى بيحول من Private Ip  الى public ip والعكس ؟
+
+
+
+Question 4Answer
+
+A.
+DHCP
+
+
+B.
+DNS
+
+
+C.
+NAT
+Feedback
+The correct answer is: NAT
+Question 5
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which type of CPE will support speed up to 100M ?
+
+ايه نوع الرواتر الى بيدعم سرعة تصل الى 100 ميجا ؟
+
+Question 5Answer
+
+A.
+ADSL CPE
+
+
+B.
+VDSL CPE
+
+Feedback
+The correct answer is: VDSL CPE
+Question 6
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+CST has ADSL CPE So, Max speed will be
+
+اقصي سرعة لراوتر ال ADSL هي ؟
+
+Question 6Answer
+
+A.
+100 M/b
+
+
+B.
+200 M/b
+
+
+C.
+24 M/b
+
+Feedback
+The correct answer is: 24 M/b
+Question 7
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+SSID name means
+
+ SSID تعني
+
+
+
+
+Question 7Answer
+
+a.
+Wireless network name
+
+
+b.
+Wireless security 
+
+
+c.
+Wireless Password
+
+Feedback
+The correct answer is:
+Wireless network name
+
+Question 8
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+If CST has Wireless problem (WLAN connected - No internet Access) and internet is not working via cable so CCA action is  ..
+
+في حاله ان العميل عنده مشكله ف ال Wireless   ان الشبكه متصله و - لا يوجد اتصال بالإنترنت والإنترنت لا يعمل بالكابل لذا فإن الإجراء الصحيح
+
+
+
+
+Question 8Answer
+
+a.
+Handle as browsing 
+
+
+b.
+Remove preferred network
+
+
+c.
+Check with another device 
+
+Feedback
+The correct answer is:
+Handle as browsing 
+
+Question 9
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+CST can change CPE page username
+
+نقدر نغير اسم المستخدم في صفحة الراوتر ؟
+
+
+Question 9Answer
+True
+False
+Feedback
+The correct answer is 'False'.
+Question 10
+Complete
+Mark 0.00 out of 1.00
+Flag question
+Question text
+If CST has Wireless problem (Unable to Connect to Wireless) first step will be ..
+
+في حاله ان العميل عنده مشكله في ال   Wireless غير قادر على الاتصال بالشبكه الخطوه الاولي هتكون
+
+
+
+
+Question 10Answer
+
+a.
+remove preferred network 
+
+
+b.
+Reset and Reconfigure CPE
+
+
+c.
+Check with another device 
+
+Feedback
+The correct answer is:
+Check with another device 
+
+Question 11
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+The value of default MTU
+
+القيمة الأساسية للـ MTU هي ؟
+
+
+Question 11Answer
+
+A.
+1492
+
+
+B.
+1420
+
+
+C.
+1460
+
+Feedback
+The correct answer is:
+1492
+
+Question 12
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+SLA of escalation suspension case
+
+ 
+
+Question 12Answer
+
+a.
+1 Day
+
+
+b.
+48 h
+
+
+c.
+72 h
+
+Feedback
+The correct answer is:
+72 h
+
+Question 13
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which protocol in this picture  ……. Transfer IP to Domain or Versus
+
+ما هو ال protocol في الصورة والى بيحول ال IP الى اسم موقع والعكس ؟
+
+
+Question 13Answer
+
+A.
+DNS
+
+
+B.
+NAT
+
+
+
+C.
+DHCP
+
+
+Feedback
+The correct answer is: DNS
+Question 14
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+This is Logical Structure ?
+
+
+
+Question 14Answer
+
+A.
+False
+
+B.
+True
+
+Feedback
+The correct answer is:
+
+
+True
+
+Question 15
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+If CST has Wireless problem (No WLAN detected ) and WLAN led status is On next step .. 
+
+اذا كان العميل عنده مشكله ف ال Wireless  ان الشبكه مش ظاهره ولمبه ال WLAN  كانت منوره الخطوه التاليه هتكون
+
+
+
+Question 15Answer
+
+a.
+Direct CST to CSO  
+
+
+b.
+Check if SSID was hidden 
+
+
+c.
+Check with another device 
+
+Feedback
+The correct answer is:
+Check if SSID was hidden 
